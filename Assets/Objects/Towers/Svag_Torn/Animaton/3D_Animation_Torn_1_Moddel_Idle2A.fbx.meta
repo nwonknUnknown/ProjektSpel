@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 6391c30e7882f6442837fadb27bb7f54
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: D_Frans_Flygare_Car_prodject_Soldat_rig:Chest_CTRL
+    100004: D_Frans_Flygare_Car_prodject_Soldat_rig:Foot_CTRL
+    100006: D_Frans_Flygare_Car_prodject_Soldat_rig:Head
+    100008: D_Frans_Flygare_Car_prodject_Soldat_rig:Head_CTRL
+    100010: D_Frans_Flygare_Car_prodject_Soldat_rig:Head_top
+    100012: D_Frans_Flygare_Car_prodject_Soldat_rig:Hip_CTRL
+    100014: D_Frans_Flygare_Car_prodject_Soldat_rig:Hip_J
+    100016: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_L_Arm
+    100018: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_R_Arm
+    100020: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_Spine
+    100022: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Elbow
+    100024: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Hand
+    100026: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Hand_CTRL
+    100028: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Fot
+    100030: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Top
+    100032: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Tow
+    100034: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Sholder
+    100036: D_Frans_Flygare_Car_prodject_Soldat_rig:Master_CTRL
+    100038: D_Frans_Flygare_Car_prodject_Soldat_rig:pCube4
+    100040: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Elbow
+    100042: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Hand
+    100044: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Hand_CTRL
+    100046: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Fot
+    100048: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Top
+    100050: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Tow
+    100052: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Sholder
+    100054: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine01
+    100056: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine02
+    100058: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine03
+    100060: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine_Curve
+    100062: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine_Neck
+    100064: D_Frans_Flygare_Cer_Prodject_Nerf_1:group1
+    100066: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Aim
+    100068: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Base
+    100070: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Base_CTRL
+    100072: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Cock
+    100074: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Cock_CTRL
+    100076: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Trigger
+    100078: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Trigger_CTRL
+    100080: D_Frans_Flygare_Cer_Prodject_Nerf_1:locator_Fire
+    100082: D_Frans_Flygare_Cer_Prodject_Nerf_1:pCylinder4
+    400000: //RootNode
+    400002: D_Frans_Flygare_Car_prodject_Soldat_rig:Chest_CTRL
+    400004: D_Frans_Flygare_Car_prodject_Soldat_rig:Foot_CTRL
+    400006: D_Frans_Flygare_Car_prodject_Soldat_rig:Head
+    400008: D_Frans_Flygare_Car_prodject_Soldat_rig:Head_CTRL
+    400010: D_Frans_Flygare_Car_prodject_Soldat_rig:Head_top
+    400012: D_Frans_Flygare_Car_prodject_Soldat_rig:Hip_CTRL
+    400014: D_Frans_Flygare_Car_prodject_Soldat_rig:Hip_J
+    400016: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_L_Arm
+    400018: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_R_Arm
+    400020: D_Frans_Flygare_Car_prodject_Soldat_rig:ik_Spine
+    400022: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Elbow
+    400024: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Hand
+    400026: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Hand_CTRL
+    400028: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Fot
+    400030: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Top
+    400032: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Leg_Tow
+    400034: D_Frans_Flygare_Car_prodject_Soldat_rig:L_Sholder
+    400036: D_Frans_Flygare_Car_prodject_Soldat_rig:Master_CTRL
+    400038: D_Frans_Flygare_Car_prodject_Soldat_rig:pCube4
+    400040: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Elbow
+    400042: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Hand
+    400044: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Hand_CTRL
+    400046: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Fot
+    400048: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Top
+    400050: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Leg_Tow
+    400052: D_Frans_Flygare_Car_prodject_Soldat_rig:R_Sholder
+    400054: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine01
+    400056: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine02
+    400058: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine03
+    400060: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine_Curve
+    400062: D_Frans_Flygare_Car_prodject_Soldat_rig:Spine_Neck
+    400064: D_Frans_Flygare_Cer_Prodject_Nerf_1:group1
+    400066: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Aim
+    400068: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Base
+    400070: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Base_CTRL
+    400072: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Cock
+    400074: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Cock_CTRL
+    400076: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Trigger
+    400078: D_Frans_Flygare_Cer_Prodject_Nerf_1:Gun_Trigger_CTRL
+    400080: D_Frans_Flygare_Cer_Prodject_Nerf_1:locator_Fire
+    400082: D_Frans_Flygare_Cer_Prodject_Nerf_1:pCylinder4
+    2100000: lambert1
+    2100002: D_Frans_Flygare_Cer_Prodject_Nerf_1_Nerf_Pistol_UV
+    4300000: D_Frans_Flygare_Car_prodject_Soldat_rig:pCube4
+    4300002: D_Frans_Flygare_Cer_Prodject_Nerf_1:pCylinder4
+    7400000: Idle
+    9500000: //RootNode
+    13700000: D_Frans_Flygare_Car_prodject_Soldat_rig:pCube4
+    13700002: D_Frans_Flygare_Cer_Prodject_Nerf_1:pCylinder4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
