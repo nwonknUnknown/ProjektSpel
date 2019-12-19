@@ -27,7 +27,7 @@ public class TurretActions : MonoBehaviour
 
     public int currentAmmo;
 
-    private int targetsInTrigger;
+    private int targetsInTrigger;// UNUSED BOOL?
     private bool hasTarget = false;
 
     private float time = 0;
@@ -60,7 +60,7 @@ public class TurretActions : MonoBehaviour
 
         LockOnTarget();
 
-        if (isLaseron)//LASERSTUFF
+        if (isLaseron)//LASERSTUFF YEAH
         {
             SlowLaserStuff();
         }
@@ -70,7 +70,7 @@ public class TurretActions : MonoBehaviour
         }
     }
 
-    void LockOnTarget()
+    void LockOnTarget()// LOCK ON TARGGET STUFF MOVED TO HERE FROM UPDATE YEAH
     {
         if (hasTarget && currentAmmo > 0 && target.GetComponent<EnemyStats>().hp > 0)
         {
@@ -134,11 +134,10 @@ public class TurretActions : MonoBehaviour
         }
     }
 
-    void SlowLaserStuff()
+    void SlowLaserStuff()// LASERSTUFF FOR SLOWDOWN YEAH
     {
         target.GetComponent<EnemyStats>().RemoveHP(damageOT * Time.deltaTime);
         target.GetComponent<EnemyMovement>().Slow(slowDown);
-
 
         if (!linerenderer.enabled)
             linerenderer.enabled = true;
