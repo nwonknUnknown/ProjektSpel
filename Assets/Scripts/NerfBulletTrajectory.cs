@@ -6,16 +6,15 @@
 public class NerfBulletTrajectory : MonoBehaviour
 {
 
-    [SerializeField] private float bulletSpeed = 1f;
+    [SerializeField] internal float bulletSpeed = 1f;
     internal GameObject targetObject;
+    internal GameObject turretObject;
 
-    internal virtual void Start()
-    {
-        
-    }
+    public int damage;
+    
 
 
-    private void Update()
+    internal virtual void Update()
     {
         Shoot();
     }
@@ -28,6 +27,11 @@ public class NerfBulletTrajectory : MonoBehaviour
         targetObject = towersTarget;
     }
 
+    public void AssignTurret(GameObject newTurretObject)
+    {
+        turretObject = newTurretObject;
+    }
+
     virtual internal void Shoot()
     {
         if (targetObject == null || targetObject.GetComponent<EnemyStats>().hp <= 0)
@@ -38,5 +42,12 @@ public class NerfBulletTrajectory : MonoBehaviour
         transform.LookAt(targetObject.transform);
 
         transform.Translate(0, 0, bulletSpeed * Time.deltaTime * 100);
+    }
+
+
+    internal virtual void OnCollisionEnter(Collision collision)
+    {
+        collision.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);
+        Destroy(gameObject);
     }
 }
