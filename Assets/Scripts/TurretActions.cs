@@ -88,7 +88,8 @@ public class TurretActions : MonoBehaviour
             GetComponent<Soundcontroller>().PlaySound();
             NerfBulletTrajectory thisBullet = Instantiate(bullet, bulletSpawnposition.position, bulletSpawnrotation.rotation);
             thisBullet.AssignTarget(target);
-            thisBullet.GetComponentInChildren<DamageToEnemy>().damage = turretDamage;
+            thisBullet.AssignTurret(gameObject);
+            thisBullet.damage = turretDamage;
             currentAmmo--;
             if (transform.parent.Find("TurretUI").gameObject.activeSelf)
             {
