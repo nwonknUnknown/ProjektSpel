@@ -9,7 +9,7 @@ public class TurretActions : MonoBehaviour
 
     [SerializeField] private Transform bulletSpawnposition;
     [SerializeField] private Transform bulletSpawnrotation;
-    [SerializeField] private NerfBulletTrajectory bullet;
+    [SerializeField] public NerfBulletTrajectory bullet;
 
     [SerializeField] private float timeBetweenShots = 1;
     public int startAmmo = 10;

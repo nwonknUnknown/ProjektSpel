@@ -7,21 +7,54 @@ public class PlayMyAnimation : MonoBehaviour
 {
 
     public Animator anim;
-
     public void PlayDefault()
     {
-        anim.SetTrigger("Play");
+        if (anim != null)
+        {
+            anim.SetTrigger("Play");
+        }
+        else
+        {
+            Debug.Log("no animation desu");
+        }
     }
     public void PlayDeath()
     {
-        anim.SetTrigger("Death");
+
+        if (anim != null)
+        {
+            anim.SetTrigger("Death");
+        }
+        else
+        {
+            Debug.Log("no animation desu");
+
+        }
     }
     public void PlayIdle()
     {
-        anim.SetTrigger("Idle");
+
+        if (anim != null)
+        {
+            anim.SetTrigger("Idle");
+        }
+        else
+        {
+            Debug.Log("no animation desu");
+
+        }
     }
     public void PlayShoot()
     {
-        anim.SetTrigger("Shoot");
+        if (anim != null)
+        {
+            anim.SetTrigger("Shoot");
+        }
+        else
+        {
+
+            Debug.Log("no animation desu");
+        }
     }
+
 }

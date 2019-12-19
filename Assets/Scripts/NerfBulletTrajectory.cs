@@ -45,9 +45,14 @@ public class NerfBulletTrajectory : MonoBehaviour
     }
 
 
-    internal virtual void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
+    {
+        DoOnCollision(collision);
+    }
+    internal virtual void DoOnCollision(Collision collision)
     {
         collision.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);
         Destroy(gameObject);
+
     }
 }

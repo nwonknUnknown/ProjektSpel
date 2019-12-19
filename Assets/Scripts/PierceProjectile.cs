@@ -5,31 +5,23 @@ using UnityEngine;
 public class PierceProjectile : NerfBulletTrajectory
 {
     
-    Collider rangeTriggerArea;
-
+    [SerializeField] float timeToLive;
+    float time = 0;
 
 
     void Start()
     {
         LookAtTargetDirection();
-        FindRangeTrigger();
     }
     
     internal override void Update()
     {
         Shoot();
+        CheckIfBulletDies();
 
     }
     
-    void OnTriggerExit(Collider other)//for range
-    {
-        if (other == rangeTriggerArea && rangeTriggerArea != null)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    internal override void OnCollisionEnter(Collision collision)
+    internal override void DoOnCollision(Collision collision)
     {
         if (targetObject.GetComponent<EnemyStats>() != null)
         {
@@ -43,11 +35,6 @@ public class PierceProjectile : NerfBulletTrajectory
         transform.LookAt(targetObject.transform);
     }
 
-    void FindRangeTrigger()
-    {
-        rangeTriggerArea = turretObject.GetComponent<SphereCollider>();
-    }
-
     override internal void Shoot()
     {
         MoveForward();
@@ -57,5 +44,14 @@ public class PierceProjectile : NerfBulletTrajectory
     void MoveForward()
     {
         transform.position += transform.forward * Time.deltaTime * bulletSpeed;
+    }
+
+    void CheckIfBulletDies()
+    {
+        time += Time.deltaTime;
+        if (timeToLive < time)
+        {
+            Destroy(gameObject);
+        }
     }
 }
