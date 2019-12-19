@@ -11,14 +11,19 @@ public class TurretActions : MonoBehaviour
     [SerializeField] private Transform bulletSpawnrotation;
     [SerializeField] public NerfBulletTrajectory bullet;
 
-    [SerializeField] private float timeBetweenShots = 1;
+    [SerializeField] private float timeBetweenShots = 1f;
     public int startAmmo = 10;
     public int bulletCost = 0;
     [SerializeField] private int turretDamage = 1;
     public int turretCost;
 
+    //LaserStuff
+    public bool isLaseron = false;
+    public LineRenderer linerenderer;
+    public float damageOT;
+    public float slowDown;
 
-    [SerializeField] private float turnspeed= 10f;
+    [SerializeField] private float turnspeed = 10f;
 
     public int currentAmmo;
 
@@ -36,7 +41,7 @@ public class TurretActions : MonoBehaviour
         transform.parent.Find("TurretUI").gameObject.SetActive(false);
     }
 
-    
+
 
     void Update()
     {
@@ -44,24 +49,44 @@ public class TurretActions : MonoBehaviour
         {
             if (target == null)
             {
-                hasTarget = false;
-            }
-
-            if (hasTarget && currentAmmo > 0 && target.GetComponent<EnemyStats>().hp > 0)
-            {
-                Vector3 dir = target.transform.position - transform.position;
-                Quaternion lookRotation = Quaternion.LookRotation(dir);
-                Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnspeed).eulerAngles;
-                transform.rotation = Quaternion.Euler(0, rotation.y, 0);
-                Shoot();
-            }
-            else if (currentAmmo <= 0)
-            {
-                RequestAmmo();
+                if (isLaseron)
+                {
+                    if (linerenderer.enabled)
+                        linerenderer.enabled = false;
+                }
+                return;
             }
         }
+
+        LockOnTarget();
+
+        if (isLaseron)//LASERSTUFF
+        {
+            SlowLaserStuff();
+        }
+        else
+        {
+            Shoot();
+        }
     }
-    
+
+    void LockOnTarget()
+    {
+        if (hasTarget && currentAmmo > 0 && target.GetComponent<EnemyStats>().hp > 0)
+        {
+            Vector3 dir = target.transform.position - transform.position;
+            Quaternion lookRotation = Quaternion.LookRotation(dir);
+            Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnspeed).eulerAngles;
+            transform.rotation = Quaternion.Euler(0, rotation.y, 0);
+
+        }
+        else if (currentAmmo <= 0)
+        {
+            RequestAmmo();
+        }
+    }
+
+
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject == target)
@@ -78,7 +103,7 @@ public class TurretActions : MonoBehaviour
             hasTarget = true;
         }
     }
-  
+
     void Shoot()
     {
         time += Time.deltaTime;
@@ -109,6 +134,19 @@ public class TurretActions : MonoBehaviour
         }
     }
 
+    void SlowLaserStuff()
+    {
+        target.GetComponent<EnemyStats>().RemoveHP(damageOT * Time.deltaTime);
+        target.GetComponent<EnemyMovement>().Slow(slowDown);
+
+
+        if (!linerenderer.enabled)
+            linerenderer.enabled = true;
+
+        linerenderer.SetPosition(0, bulletSpawnposition.position);
+        linerenderer.SetPosition(1, target.transform.position);
+    }
+
     void RequestAmmo()
     {
         transform.parent.Find("NoAmmoUI").gameObject.SetActive(true);
@@ -119,9 +157,9 @@ public class TurretActions : MonoBehaviour
     public string GetTurretStats()
     {
         string allstats;
-        
+
         allstats = "\n" + "Damage: " + turretDamage.ToString();
-        allstats += "\n" + "Firerate: " + (1/timeBetweenShots).ToString() + " shot(s)/s";
+        allstats += "\n" + "Firerate: " + (1 / timeBetweenShots).ToString() + " shot(s)/s";
         allstats += "\n" + "Cost: " + turretCost.ToString() + " Gold";
         allstats += "\n" + "Ammo: " + startAmmo.ToString();
         allstats += "\n" + "Refill cost/bullet: " + bulletCost;

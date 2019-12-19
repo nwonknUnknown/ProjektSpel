@@ -3,9 +3,10 @@
 //Simon Voss
 //Includes stats of the enemy such as gold and hp, also calles for the script "EnemyDeath" when enemy reaches 0hp
 
-public class EnemyStats : MonoBehaviour {
+public class EnemyStats : MonoBehaviour
+{
 
-    public int hp;
+    public float hp;//Changed to f from int
     [SerializeField] private int goldWorth;
     bool isDead = false;
 
@@ -14,10 +15,10 @@ public class EnemyStats : MonoBehaviour {
         hp += hpToAdd;
     }
 
-    public void RemoveHP(int hpToRemove)
+    public void RemoveHP(float hpToRemove)//Changed to float
     {
         hp -= hpToRemove;
-        if (hp <=0 && !isDead)
+        if (hp <= 0 && !isDead)
         {
             isDead = true;
             GoldManager.instance.IncreaseGold(goldWorth);
