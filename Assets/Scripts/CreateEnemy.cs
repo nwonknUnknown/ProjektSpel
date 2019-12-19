@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 
-//Simon Voss
-//Created enemies on spawnpoints
 
 public class CreateEnemy : MonoBehaviour
 {
@@ -14,7 +12,7 @@ public class CreateEnemy : MonoBehaviour
 
 
 
-    public void StartWave(int[]inputNumberofSpawnsofEnemy, float firstSpawnDelay, float spawnTimer)
+    public void StartWave(int[] inputNumberofSpawnsofEnemy, float firstSpawnDelay, float spawnTimer)
     {
         numberOfSpawnsofEnemy = inputNumberofSpawnsofEnemy;
         InvokeRepeating("Spawn", firstSpawnDelay, spawnTimer);
@@ -36,19 +34,22 @@ public class CreateEnemy : MonoBehaviour
 
         GetComponent<WavesManager>().enemiesOnMap++;
         GetComponent<WavesManager>().enemiesToBeSpawned--;
-        int spawnPointIndex = Random.Range(0, spawnPoints.Length);    
-        
+        int spawnPointIndex = Random.Range(0, spawnPoints.Length);
+
         //Spawns the enemy
-        Instantiate (enemy[enemyIndex], spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].localRotation);
+        GameObject enemyObject = Instantiate(enemy[enemyIndex], spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].localRotation);
+        enemyObject.GetComponent<EnemyMovement>().waypointPath = GameObject.FindGameObjectWithTag("Waypoint" + spawnPointIndex).GetComponent<Checkpoints>();
         numberOfSpawnsofEnemy[enemyIndex]--;
 
 
+
+
         //Plays animations dependent on which spawnpoint that was used
-        
-                    if (spawnAnimation[spawnPointIndex] != null)
-                    {
-                        spawnAnimation[spawnPointIndex].PlayDefault();
-                        
-                    }
+
+        if (spawnAnimation[spawnPointIndex] != null)
+        {
+            spawnAnimation[spawnPointIndex].PlayDefault();
+
+        }
     }
 }

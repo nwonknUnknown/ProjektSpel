@@ -137,7 +137,7 @@ public class TurretActions : MonoBehaviour
     void SlowLaserStuff()// LASERSTUFF FOR SLOWDOWN YEAH
     {
         target.GetComponent<EnemyStats>().RemoveHP(damageOT * Time.deltaTime);
-        target.GetComponent<EnemyMovement>().Slow(slowDown);
+       // target.GetComponent<EnemyMovement>().Slow(slowDown);
 
         if (!linerenderer.enabled)
             linerenderer.enabled = true;

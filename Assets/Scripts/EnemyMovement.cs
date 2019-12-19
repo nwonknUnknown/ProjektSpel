@@ -1,76 +1,52 @@
-﻿using System.Collections;
-using UnityEngine;
-
-//Simon Voss, Alexander Kourie, Rasmus Tukia
-//Constantly moves the enemy in it's forward direction, also enables the rotation of the enemy from input from "Change Enemy Directions" -script
-
-public enum Rotation { Continue, Right, Left }
+﻿using UnityEngine;
 
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float startMovementspeed;//AND THIS
-    [HideInInspector] public float movementspeed;//AND THIS
+    public float movementspeed;
 
-    public Rotation currentRotating = Rotation.Continue;
-    float startingRotation;
-    float totalRotation = 0;
-    bool startingToRotate = true;
+    public Checkpoints waypointPath;
 
-    private void Start()// FOR THE SLOWMENT
+    public Transform goal;
+    private int wavePointIndex = 0;
+
+
+    void Start()
     {
-        movementspeed = startMovementspeed;
+        goal = waypointPath.checkPoints[0];
+        movementspeed = gameObject.GetComponent<EnemyStats>().enemySpeed;
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        transform.Translate(0, 0, movementspeed / 100);
+        Vector3 direction = goal.position - transform.position;
+        transform.Translate(direction.normalized * movementspeed * Time.deltaTime, Space.World);
+        Quaternion tagetRotation = Quaternion.LookRotation(direction);
+        this.transform.rotation = Quaternion.Lerp(this.transform.rotation, tagetRotation, Time.deltaTime * 5);
 
-        if (currentRotating == Rotation.Left)
+        if (Vector3.Distance(transform.position, goal.position) <= 0.2f)
         {
-            if (startingToRotate)
-            {
-                startingRotation = totalRotation;
-                startingToRotate = false;
-            }
-            transform.Rotate(0, -movementspeed, 0);
-            totalRotation -= movementspeed;
-            if (totalRotation <= startingRotation - 90)
-            {
-                transform.Rotate(0, (totalRotation + startingRotation + 90), 0);
-                totalRotation = 0;
-                startingRotation = 0;
-                startingToRotate = true;
-                currentRotating = Rotation.Continue;
-            }
-        }
-        else if (currentRotating == Rotation.Right)
-        {
-            if (startingToRotate)
-            {
-                startingRotation = totalRotation;
-                startingToRotate = false;
-            }
-            transform.Rotate(0, movementspeed, 0);
-            totalRotation += movementspeed;
-            if (totalRotation >= startingRotation + 90)
-            {
-                transform.Rotate(0, -(totalRotation - startingRotation - 90), 0);
-                totalRotation = 0;
-                startingRotation = 0;
-                startingToRotate = true;
-                currentRotating = Rotation.Continue;
-            }
-        }
-        else
-        {
-            currentRotating = Rotation.Continue;
+            GoToNextCheckpoint();
         }
 
-        movementspeed = startMovementspeed;// TO REGAIN SPEEEED
     }
-    public void Slow(float amount)//SLOOOOOOOOOOOOW
+
+    void GoToNextCheckpoint()
     {
-        movementspeed = startMovementspeed / (1f + amount);
+
+        if (wavePointIndex >= waypointPath.checkPoints.Length - 1)
+        {
+            EndPath();
+            return;
+        }
+
+        wavePointIndex++;
+        goal = waypointPath.checkPoints[wavePointIndex];
+
+    }
+
+    void EndPath()
+    {
+        Destroy(gameObject);
     }
 }

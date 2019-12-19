@@ -60,7 +60,7 @@ public class StatesMethods : MonoBehaviour
                 enemy.GetComponent<BoxCollider>().enabled = false;
             }
             enemy.GetComponent<EnemyMovement>().movementspeed = 0;
-            enemy.GetComponent<EnemyMovement>().currentRotating = Rotation.Continue;
+            //enemy.GetComponent<EnemyMovement>().currentRotating = Rotation.Continue;
             enemy.layer = 0;
         }
         _camera.GetComponent<PlayMyAnimation>().PlayDefault();
