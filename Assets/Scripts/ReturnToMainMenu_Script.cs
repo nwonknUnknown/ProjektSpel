@@ -12,4 +12,8 @@ public class ReturnToMainMenu_Script : MonoBehaviour
     {
         SceneManager.LoadScene(sceneToChange);
     }
+    public void GoToNextScene(string sceneToChange)
+    {
+        SceneManager.LoadScene(sceneToChange);
+    }
 }

@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: 202d95b7dc1a57244ab1d90f4a6a548f
+  - enabled: 1
+    path: Assets/Scenes/Vardagsrum.unity
+    guid: 130faa49858e388448aa82d217ea5c6d
   m_configObjects: {}
