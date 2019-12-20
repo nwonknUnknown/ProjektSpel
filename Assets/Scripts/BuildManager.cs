@@ -18,6 +18,10 @@ public class BuildManager : MonoBehaviour
     public GameObject buildStrongTowerButtonCancel;
     public GameObject buildStrongTowerButtonStats;
 
+    public GameObject buildSlowTowerButton;
+    public GameObject buildSlowTowerButtonCancel;
+    public GameObject buildSlowTowerButtonStats;
+
 
     private void Awake()
     {
@@ -26,6 +30,7 @@ public class BuildManager : MonoBehaviour
 
     public GameObject WeakTurretPrefab;
     public GameObject StrongTurretPrefab;
+    public GameObject SlowTurretPrefab;
     TheTurretsUI theTurretsUI;
     public GameObject turretToBuild;
     private GameObject selectedTurret;
@@ -65,12 +70,17 @@ public class BuildManager : MonoBehaviour
         selectedTurret.GetComponent<TheTurretsUI>().ShowUI();
         GetComponent<BuildingMode>().HideWeakBuildablePlots();
         GetComponent<BuildingMode>().HideStrongBuildablePlots();
+        GetComponent<BuildingMode>().HideSlowBuildablePlots();
         buildWeakTowerButton.SetActive(true);
         buildWeakTowerButtonCancel.SetActive(false);
+        buildWeakTowerButtonStats.SetActive(false);
         buildStrongTowerButton.SetActive(true);
         buildStrongTowerButtonCancel.SetActive(false);
         buildStrongTowerButtonStats.SetActive(false);
-        buildWeakTowerButtonStats.SetActive(false);
+        buildSlowTowerButton.SetActive(true);
+        buildSlowTowerButtonCancel.SetActive(false);
+        buildSlowTowerButtonStats.SetActive(false);
+
 
         turretToBuild = null;
     }
@@ -82,13 +92,13 @@ public class BuildManager : MonoBehaviour
         selectedTurret = null;
     }
 
-  
+
     public void SelectTurretToBuild(GameObject turret)
     {
         turretToBuild = turret;
     }
 
-      
+
     public void RefillTurretsAmmo(GameObject selectedTurret)
     {
         int refillAmmoCost = (selectedTurret.GetComponentInChildren<TurretActions>().startAmmo - selectedTurret.GetComponentInChildren<TurretActions>().currentAmmo) * selectedTurret.GetComponentInChildren<TurretActions>().bulletCost;

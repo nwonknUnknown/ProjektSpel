@@ -5,13 +5,15 @@ using UnityEngine;
 //Simon Voss, Alexander Kourie
 //Shows or hides plots that can be built on
 
-public class BuildingMode : MonoBehaviour {
+public class BuildingMode : MonoBehaviour
+{
 
-    
+
     public GameObject[] weakTurretPlots;
+    public GameObject[] slowTurretPlots;
     public GameObject[] strongTurretPlots;
 
-	public void ShowWeakBuildablePlots()
+    public void ShowWeakBuildablePlots()
     {
         for (int i = 0; i < weakTurretPlots.Length; i++)
         {
@@ -31,6 +33,16 @@ public class BuildingMode : MonoBehaviour {
             }
         }
     }
+    public void ShowSlowBuildablePlots()
+    {
+        for (int i = 0; i < slowTurretPlots.Length; i++)
+        {
+            if (slowTurretPlots[i].GetComponent<IndicateHover>().builtOn == false)
+            {
+                slowTurretPlots[i].SetActive(true);
+            }
+        }
+    }
     public void HideWeakBuildablePlots()
     {
         for (int i = 0; i < weakTurretPlots.Length; i++)
@@ -43,6 +55,13 @@ public class BuildingMode : MonoBehaviour {
         for (int i = 0; i < strongTurretPlots.Length; i++)
         {
             strongTurretPlots[i].SetActive(false);
+        }
+    }
+    public void HideSlowBuildablePlots()
+    {
+        for (int i = 0; i < weakTurretPlots.Length; i++)
+        {
+            weakTurretPlots[i].SetActive(false);
         }
     }
 }

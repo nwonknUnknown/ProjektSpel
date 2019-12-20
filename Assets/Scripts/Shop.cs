@@ -3,11 +3,13 @@
 //Simon Voss, Alexander Kourie
 //Holds the prefabs for the different turrets
 
-public class Shop : MonoBehaviour {
+public class Shop : MonoBehaviour
+{
 
 
     [SerializeField] private GameObject strongTurret;
     [SerializeField] private GameObject weakTurret;
+    [SerializeField] private GameObject slowTurret;
 
 
     public void SelectWeakTurret()
@@ -20,6 +22,12 @@ public class Shop : MonoBehaviour {
     {
         Debug.Log("Strong Turret Selected");
         BuildManager.instance.SelectTurretToBuild(strongTurret);
+    }
+
+    public void SelectSlowTurret()
+    {
+        Debug.Log("Slow Turret Selected");
+        BuildManager.instance.SelectTurretToBuild(slowTurret);
     }
 
 }

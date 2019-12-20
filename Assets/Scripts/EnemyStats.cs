@@ -10,12 +10,7 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private int goldWorth;
     bool isDead = false;
 
-    public float enemySpeed;
-
-    public void IncreaseHP(int hpToAdd)
-    {
-        hp += hpToAdd;
-    }
+    //Removed increase HP?
 
     public void RemoveHP(float hpToRemove)//Changed to float
     {

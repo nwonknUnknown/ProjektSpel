@@ -59,7 +59,7 @@ public class StatesMethods : MonoBehaviour
             {
                 enemy.GetComponent<BoxCollider>().enabled = false;
             }
-            enemy.GetComponent<EnemyMovement>().movementspeed = 0;
+            enemy.GetComponent<EnemyMovement>().startMovementspeed = 0;
             //enemy.GetComponent<EnemyMovement>().currentRotating = Rotation.Continue;
             enemy.layer = 0;
         }
@@ -76,7 +76,7 @@ public class StatesMethods : MonoBehaviour
         _lightning.GetComponent<PlayMyAnimation>().PlayDefault();
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("enemy"))
         {
-            enemy.GetComponent<EnemyMovement>().movementspeed = 5;
+            enemy.GetComponent<EnemyMovement>().startMovementspeed = 5;
         }
         yield return null;
     }

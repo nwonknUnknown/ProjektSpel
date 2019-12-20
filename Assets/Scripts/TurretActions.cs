@@ -5,32 +5,24 @@
 
 public class TurretActions : MonoBehaviour
 {
-    private GameObject target;
+    internal GameObject target;
 
-    [SerializeField] private Transform bulletSpawnposition;
-    [SerializeField] private Transform bulletSpawnrotation;
+    [SerializeField] internal Transform bulletSpawnposition;
+    [SerializeField] internal Transform bulletSpawnrotation;
     [SerializeField] public NerfBulletTrajectory bullet;
 
     [SerializeField] private float timeBetweenShots = 1f;
-    public int startAmmo = 10;
-    public int bulletCost = 0;
     [SerializeField] private int turretDamage = 1;
-    public int turretCost;
-
-    //LaserStuff
-    public bool isLaseron = false;
-    public LineRenderer linerenderer;
-    public float damageOT;
-    public float slowDown;
-
     [SerializeField] private float turnspeed = 10f;
+    private float time = 0;
 
+    public int startAmmo = 10;
     public int currentAmmo;
+    public int bulletCost = 0;
+    public int turretCost;
 
     private int targetsInTrigger;// UNUSED BOOL?
     private bool hasTarget = false;
-
-    private float time = 0;
 
     public void Start()
     {
@@ -41,36 +33,22 @@ public class TurretActions : MonoBehaviour
         transform.parent.Find("TurretUI").gameObject.SetActive(false);
     }
 
-
-
-    void Update()
+    internal virtual void Update()
     {
         if (!HpManager.instance.CheckIfLost())
         {
             if (target == null)
             {
-                if (isLaseron)
-                {
-                    if (linerenderer.enabled)
-                        linerenderer.enabled = false;
-                }
                 return;
             }
         }
 
         LockOnTarget();
 
-        if (isLaseron)//LASERSTUFF YEAH
-        {
-            SlowLaserStuff();
-        }
-        else
-        {
-            Shoot();
-        }
+        Shoot();
     }
 
-    void LockOnTarget()// LOCK ON TARGGET STUFF MOVED TO HERE FROM UPDATE YEAH
+    internal bool LockOnTarget()
     {
         if (hasTarget && currentAmmo > 0 && target.GetComponent<EnemyStats>().hp > 0)
         {
@@ -78,14 +56,19 @@ public class TurretActions : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(dir);
             Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnspeed).eulerAngles;
             transform.rotation = Quaternion.Euler(0, rotation.y, 0);
+            return true;
 
         }
         else if (currentAmmo <= 0)
         {
             RequestAmmo();
+            return false;
+        }
+        else
+        {
+            return false;
         }
     }
-
 
     void OnTriggerExit(Collider other)
     {
@@ -104,7 +87,7 @@ public class TurretActions : MonoBehaviour
         }
     }
 
-    void Shoot()
+    virtual internal void Shoot()
     {
         time += Time.deltaTime;
         if (time >= timeBetweenShots)
@@ -132,18 +115,6 @@ public class TurretActions : MonoBehaviour
             time -= timeBetweenShots;
 
         }
-    }
-
-    void SlowLaserStuff()// LASERSTUFF FOR SLOWDOWN YEAH
-    {
-        target.GetComponent<EnemyStats>().RemoveHP(damageOT * Time.deltaTime);
-       // target.GetComponent<EnemyMovement>().Slow(slowDown);
-
-        if (!linerenderer.enabled)
-            linerenderer.enabled = true;
-
-        linerenderer.SetPosition(0, bulletSpawnposition.position);
-        linerenderer.SetPosition(1, target.transform.position);
     }
 
     void RequestAmmo()

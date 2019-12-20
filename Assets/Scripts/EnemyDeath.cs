@@ -9,7 +9,7 @@ public class EnemyDeath : MonoBehaviour {
 
 	public void Death()
     {
-        GetComponent<EnemyMovement>().movementspeed = 0;
+        GetComponent<EnemyMovement>().startMovementspeed = 0;
         
         gameObject.layer = 13;
 
@@ -27,7 +27,7 @@ public class EnemyDeath : MonoBehaviour {
         GetComponent<Rigidbody>().isKinematic = false;
         GetComponent<Rigidbody>().useGravity = true;
         GetComponent<BoxCollider>().enabled = false;
-        Destroy(gameObject, 1);
+        Destroy(gameObject, .1f);
         yield return null;
     }
     
