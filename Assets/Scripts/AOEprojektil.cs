@@ -14,6 +14,7 @@ public class AOEprojektil : NerfBulletTrajectory
     internal override void Update()
     {
         Shoot();
+        Debug.Log("What happens here");
     }
 
     internal override void DoOnCollision(Collision collision)
@@ -33,15 +34,10 @@ public class AOEprojektil : NerfBulletTrajectory
         transform.LookAt(targetObject.transform);
     }
 
-    override internal void Shoot()
-    {
-        MoveForward();
-    }
-
-    void MoveForward()
+    /*override internal void Shoot()
     {
         transform.position += transform.forward * Time.deltaTime * bulletSpeed;
-    }
+    }*/
 
     void Damage(GameObject enemy)
     {

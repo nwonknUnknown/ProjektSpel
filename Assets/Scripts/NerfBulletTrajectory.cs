@@ -12,17 +12,12 @@ public class NerfBulletTrajectory : MonoBehaviour
 
     public int damage;
     
-
-
     internal virtual void Update()
     {
         Shoot();
     }
 
-
-
-
-    public void AssignTarget(GameObject towersTarget)
+    internal virtual void AssignTarget(GameObject towersTarget)
     {
         targetObject = towersTarget;
     }
@@ -44,11 +39,11 @@ public class NerfBulletTrajectory : MonoBehaviour
         transform.Translate(0, 0, bulletSpeed * Time.deltaTime * 100);
     }
 
-
     void OnCollisionEnter(Collision collision)
     {
         DoOnCollision(collision);
     }
+
     internal virtual void DoOnCollision(Collision collision)
     {
         collision.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);

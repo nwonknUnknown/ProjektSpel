@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3151b5197537e9c48b3b037f57ca7d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!114 &121097728592509645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,9 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3518f40b806394527aa17f24a309915d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 1
+  bulletSpeed: 20
   damage: 0
-  explosionRadius: 2.4
+  explosionRadius: 4
 --- !u!1 &1281483122382834
 GameObject:
   m_ObjectHideFlags: 0

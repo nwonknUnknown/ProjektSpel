@@ -22,6 +22,9 @@ public class BuildManager : MonoBehaviour
     public GameObject buildSlowTowerButtonCancel;
     public GameObject buildSlowTowerButtonStats;
 
+    public GameObject buildAoeTowerButton;
+    public GameObject buildAoeTowerButtonCancel;
+    public GameObject buildAoeTowerButtonStats;
 
     private void Awake()
     {
@@ -31,6 +34,7 @@ public class BuildManager : MonoBehaviour
     public GameObject WeakTurretPrefab;
     public GameObject StrongTurretPrefab;
     public GameObject SlowTurretPrefab;
+    public GameObject AoeTurretPrefab;
     TheTurretsUI theTurretsUI;
     public GameObject turretToBuild;
     private GameObject selectedTurret;
@@ -71,6 +75,7 @@ public class BuildManager : MonoBehaviour
         GetComponent<BuildingMode>().HideWeakBuildablePlots();
         GetComponent<BuildingMode>().HideStrongBuildablePlots();
         GetComponent<BuildingMode>().HideSlowBuildablePlots();
+        GetComponent<BuildingMode>().HideAoeBuildablePlots();
         buildWeakTowerButton.SetActive(true);
         buildWeakTowerButtonCancel.SetActive(false);
         buildWeakTowerButtonStats.SetActive(false);
@@ -80,6 +85,9 @@ public class BuildManager : MonoBehaviour
         buildSlowTowerButton.SetActive(true);
         buildSlowTowerButtonCancel.SetActive(false);
         buildSlowTowerButtonStats.SetActive(false);
+        buildAoeTowerButton.SetActive(true);
+        buildAoeTowerButtonCancel.SetActive(false);
+        buildAoeTowerButtonStats.SetActive(false);
 
 
         turretToBuild = null;

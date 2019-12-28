@@ -10,6 +10,7 @@ public class Shop : MonoBehaviour
     [SerializeField] private GameObject strongTurret;
     [SerializeField] private GameObject weakTurret;
     [SerializeField] private GameObject slowTurret;
+    [SerializeField] private GameObject aoeTurret;
 
 
     public void SelectWeakTurret()
@@ -28,6 +29,12 @@ public class Shop : MonoBehaviour
     {
         Debug.Log("Slow Turret Selected");
         BuildManager.instance.SelectTurretToBuild(slowTurret);
+    }
+
+    public void SelectAoeTurret()
+    {
+        Debug.Log("Aoe Turret Selected");
+        BuildManager.instance.SelectTurretToBuild(aoeTurret);
     }
 
 }
