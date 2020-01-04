@@ -3464,6 +3464,7 @@ MonoBehaviour:
   - {fileID: 926609381}
   - {fileID: 589335076}
   - {fileID: 1233966060}
+  aoeTurretPlots: []
 --- !u!114 &161065235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3485,12 +3486,16 @@ MonoBehaviour:
   buildSlowTowerButton: {fileID: 539214249}
   buildSlowTowerButtonCancel: {fileID: 1182473602}
   buildSlowTowerButtonStats: {fileID: 1558390456}
+  buildAoeTowerButton: {fileID: 0}
+  buildAoeTowerButtonCancel: {fileID: 0}
+  buildAoeTowerButtonStats: {fileID: 0}
   WeakTurretPrefab: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
     type: 3}
   StrongTurretPrefab: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
   SlowTurretPrefab: {fileID: 2376849500310867691, guid: 4710249a605f744279e7184ae4148ca3,
     type: 3}
+  AoeTurretPrefab: {fileID: 0}
   turretToBuild: {fileID: 0}
   CanBuild: 1
 --- !u!114 &161065236
@@ -3548,6 +3553,7 @@ MonoBehaviour:
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
   slowTurret: {fileID: 2376849500310867691, guid: 4710249a605f744279e7184ae4148ca3,
     type: 3}
+  aoeTurret: {fileID: 0}
 --- !u!114 &161065239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17050,6 +17056,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9fc64f08df06f484e99b8f65b0e23205, type: 2}
+    - target: {fileID: 400040, guid: 813c3b620bc266745a6c2d2f33baf9b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 813c3b620bc266745a6c2d2f33baf9b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 813c3b620bc266745a6c2d2f33baf9b7, type: 3}
 --- !u!1 &1053299940
