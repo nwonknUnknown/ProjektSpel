@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: cca5e7162ea85ce4a8abe4ce33c13740
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Bedroom_Main.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Kitchen.unity
+    path: Assets/Scenes/Kitchen_Main.unity
     guid: 202d95b7dc1a57244ab1d90f4a6a548f
   - enabled: 1
-    path: Assets/Scenes/Vardagsrum.unity
+    path: Assets/Scenes/Livingroom_Main.unity
     guid: 130faa49858e388448aa82d217ea5c6d
   m_configObjects: {}
