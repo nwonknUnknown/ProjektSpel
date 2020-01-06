@@ -1,20 +1,32 @@
 fileFormatVersion: 2
-guid: 83e53ba94371aeb40a96f3f69ed9c2f3
+guid: 239ba5af232c98c49bfedfb645692276
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pPlane1
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 347a13b0c66e64d4698e791581b9f85e, type: 2}
+    100000: Floor
+    100002: Leftwall
+    100004: Midwall
+    100006: Rightwall
+    100008: //RootNode
+    400000: Floor
+    400002: Leftwall
+    400004: Midwall
+    400006: Rightwall
+    400008: //RootNode
+    2100000: blinn1
+    2300000: Floor
+    2300002: Leftwall
+    2300004: Midwall
+    2300006: Rightwall
+    3300000: Floor
+    3300002: Leftwall
+    3300004: Midwall
+    3300006: Rightwall
+    4300000: Leftwall
+    4300002: Floor
+    4300004: Rightwall
+    4300006: Midwall
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
