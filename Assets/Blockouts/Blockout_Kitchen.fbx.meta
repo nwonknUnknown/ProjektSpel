@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 09d84efcbda38444fb0c0c7040a558ac
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bench1
+    100002: Bench2
+    100004: Bench3
+    100006: Bench4
+    100008: //RootNode
+    100010: Chair
+    100012: Cornerbench
+    100014: Door2
+    100016: Fan
+    100018: Fridge
+    100020: humanBody1
+    100022: humanBody2
+    100024: HumanBody:humanBody
+    100026: Kitchenchair
+    100028: Kitchendoor
+    100030: Kitchentable
+    100032: Kithensink
+    100034: Knifeturret
+    100036: Oven
+    100038: SM_Kitchen
+    100040: Teddy
+    100042: Window
+    400000: Bench1
+    400002: Bench2
+    400004: Bench3
+    400006: Bench4
+    400008: //RootNode
+    400010: Chair
+    400012: Cornerbench
+    400014: Door2
+    400016: Fan
+    400018: Fridge
+    400020: humanBody1
+    400022: humanBody2
+    400024: HumanBody:humanBody
+    400026: Kitchenchair
+    400028: Kitchendoor
+    400030: Kitchentable
+    400032: Kithensink
+    400034: Knifeturret
+    400036: Oven
+    400038: SM_Kitchen
+    400040: Teddy
+    400042: Window
+    2100000: blinn6
+    2100002: blinn1
+    2100004: blinn9
+    2100006: lambert1
+    2100008: blinn8
+    2100010: blinn5
+    2100012: HumanBody_blinn1
+    2100014: blinn2
+    2100016: blinn7
+    2100018: blinn10
+    2100020: blinn4
+    2100022: M_Knifeturret
+    2300000: Bench1
+    2300002: Bench2
+    2300004: Bench3
+    2300006: Bench4
+    2300008: Chair
+    2300010: Cornerbench
+    2300012: Door2
+    2300014: Fan
+    2300016: Fridge
+    2300018: humanBody1
+    2300020: humanBody2
+    2300022: HumanBody:humanBody
+    2300024: Kitchenchair
+    2300026: Kitchendoor
+    2300028: Kitchentable
+    2300030: Kithensink
+    2300032: Knifeturret
+    2300034: Oven
+    2300036: SM_Kitchen
+    2300038: Teddy
+    2300040: Window
+    3300000: Bench1
+    3300002: Bench2
+    3300004: Bench3
+    3300006: Bench4
+    3300008: Chair
+    3300010: Cornerbench
+    3300012: Door2
+    3300014: Fan
+    3300016: Fridge
+    3300018: humanBody1
+    3300020: humanBody2
+    3300022: HumanBody:humanBody
+    3300024: Kitchenchair
+    3300026: Kitchendoor
+    3300028: Kitchentable
+    3300030: Kithensink
+    3300032: Knifeturret
+    3300034: Oven
+    3300036: SM_Kitchen
+    3300038: Teddy
+    3300040: Window
+    4300000: Window
+    4300002: SM_Kitchen
+    4300004: Oven
+    4300006: Fan
+    4300008: Kitchentable
+    4300010: Fridge
+    4300012: HumanBody:humanBody
+    4300014: Teddy
+    4300016: Kithensink
+    4300018: humanBody1
+    4300020: humanBody2
+    4300022: Chair
+    4300024: Kitchenchair
+    4300026: Door2
+    4300028: Bench1
+    4300030: Kitchendoor
+    4300032: Bench2
+    4300034: Bench3
+    4300036: Bench4
+    4300038: Cornerbench
+    4300040: Knifeturret
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
