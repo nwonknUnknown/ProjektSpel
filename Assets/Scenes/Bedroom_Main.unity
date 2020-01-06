@@ -2917,6 +2917,7 @@ MonoBehaviour:
   - {fileID: 1643728319}
   - {fileID: 1630752697}
   - {fileID: 1203909765}
+  slowTurretPlots: []
   strongTurretPlots:
   - {fileID: 1062020044}
   - {fileID: 1344841029}
@@ -2936,6 +2937,7 @@ MonoBehaviour:
   - {fileID: 973635852}
   - {fileID: 1598551544}
   - {fileID: 632310737}
+  aoeTurretPlots: []
 --- !u!114 &161065235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2954,10 +2956,18 @@ MonoBehaviour:
   buildStrongTowerButton: {fileID: 1361756380}
   buildStrongTowerButtonCancel: {fileID: 339097740}
   buildStrongTowerButtonStats: {fileID: 1886537962}
+  buildSlowTowerButton: {fileID: 0}
+  buildSlowTowerButtonCancel: {fileID: 0}
+  buildSlowTowerButtonStats: {fileID: 0}
+  buildAoeTowerButton: {fileID: 0}
+  buildAoeTowerButtonCancel: {fileID: 0}
+  buildAoeTowerButtonStats: {fileID: 0}
   WeakTurretPrefab: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
     type: 3}
   StrongTurretPrefab: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
+  SlowTurretPrefab: {fileID: 0}
+  AoeTurretPrefab: {fileID: 0}
   turretToBuild: {fileID: 0}
   CanBuild: 1
 --- !u!114 &161065236
@@ -3013,6 +3023,8 @@ MonoBehaviour:
   strongTurret: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
+  slowTurret: {fileID: 0}
+  aoeTurret: {fileID: 0}
 --- !u!114 &161065239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10673,7 +10685,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &642831545
 Transform:
   m_ObjectHideFlags: 0
@@ -33059,7 +33071,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Kitchen
+          m_StringArgument: Bathroom_Main
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
