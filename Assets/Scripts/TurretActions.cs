@@ -9,7 +9,7 @@ public class TurretActions : MonoBehaviour
 
     [SerializeField] internal Transform bulletSpawnposition;
     [SerializeField] internal Transform bulletSpawnrotation;
-    [SerializeField] public NerfBulletTrajectory bullet;
+    [SerializeField] public Projectile bullet;
 
     [SerializeField] private float timeBetweenShots = 1f;
     [SerializeField] private int turretDamage = 1;
@@ -94,10 +94,10 @@ public class TurretActions : MonoBehaviour
         {
             GetComponentInChildren<PlayMyAnimation>().PlayShoot();
             GetComponent<Soundcontroller>().PlaySound();
-            NerfBulletTrajectory thisBullet = Instantiate(bullet, bulletSpawnposition.position, bulletSpawnrotation.rotation);
+            Projectile thisBullet = Instantiate(bullet, bulletSpawnposition.position, bulletSpawnrotation.rotation);
             thisBullet.AssignTarget(target);
             thisBullet.AssignTurret(gameObject);
-            thisBullet.damage = turretDamage;
+            thisBullet.Damage = turretDamage;
             currentAmmo--;
             if (transform.parent.Find("TurretUI").gameObject.activeSelf)
             {
