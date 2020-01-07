@@ -7,11 +7,11 @@ public class NerfBulletTrajectory : MonoBehaviour
 {
 
     [SerializeField] internal float bulletSpeed = 1f;
+    [SerializeField] float explosionRadius = 0f;
     GameObject targetObject;
     GameObject turretObject;
     Projectile projectileValues;
     private int damage;
-
 
     void Start()
     {
@@ -24,7 +24,6 @@ public class NerfBulletTrajectory : MonoBehaviour
     {
         Shoot();
     }
-
 
     void Shoot()
     {
@@ -40,7 +39,37 @@ public class NerfBulletTrajectory : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        collision.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);
+        if (explosionRadius > 0f)
+        {
+            Explode();
+        }
+        else
+        {
+            collision.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);
+        }
         Destroy(gameObject);
+    }
+
+    void Explode()
+    {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+        foreach (Collider collider in colliders)
+        {
+            if (collider.tag == "enemy")
+            {
+                Damage(collider.transform);
+            }
+        }
+    }
+    void Damage(Transform enemy)
+    {
+
+        enemy.gameObject.GetComponent<EnemyStats>().RemoveHP(damage);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
 }

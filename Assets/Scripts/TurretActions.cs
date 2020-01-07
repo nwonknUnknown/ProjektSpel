@@ -103,7 +103,7 @@ public class TurretActions : MonoBehaviour
     virtual internal void Shoot()
     {
         time += Time.deltaTime;
-        if (time >= timeBetweenShots)
+        if (time >= timeBetweenShots && currentAmmo > 0)
         {
             GetComponentInChildren<PlayMyAnimation>().PlayShoot();
             GetComponent<Soundcontroller>().PlaySound();
