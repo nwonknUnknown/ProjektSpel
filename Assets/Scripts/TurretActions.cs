@@ -35,13 +35,26 @@ public class TurretActions : MonoBehaviour
 
     internal virtual void Update()
     {
-        if (!HpManager.instance.CheckIfLost())
-        {
+        //if (!HpManager.instance.CheckIfLost())
+        //{
             if (target == null)
             {
                 return;
             }
-        }
+
+            if (hasTarget && currentAmmo > 0 && target.GetComponent<EnemyStats>().hp > 0)
+            {
+                Vector3 dir = target.transform.position - transform.position;
+                Quaternion lookRotation = Quaternion.LookRotation(dir);
+                Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * turnspeed).eulerAngles;
+                transform.rotation = Quaternion.Euler(0, rotation.y, 0);
+                Shoot();
+            }
+            else if (currentAmmo <= 0)
+            {
+                RequestAmmo();
+            }
+        //}
 
         LockOnTarget();
 
