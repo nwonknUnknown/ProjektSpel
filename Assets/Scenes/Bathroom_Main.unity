@@ -2211,7 +2211,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Completed the Game!
+  m_Text: You Completed the Bathroom!
 --- !u!222 &102139696
 CanvasRenderer:
   m_ObjectHideFlags: 0
