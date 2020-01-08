@@ -138,6 +138,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 0.2
   explosionRadius: 0
+  Explosion: {fileID: 703741807387339121, guid: 9fdd80ff7bf944072aec02bd4968ad43,
+    type: 3}
 --- !u!135 &135819881569436802
 SphereCollider:
   m_ObjectHideFlags: 0
