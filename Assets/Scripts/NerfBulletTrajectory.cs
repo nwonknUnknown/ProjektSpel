@@ -8,6 +8,7 @@ public class NerfBulletTrajectory : MonoBehaviour
 
     [SerializeField] internal float bulletSpeed = 1f;
     [SerializeField] float explosionRadius = 0f;
+    [SerializeField] GameObject Explosion;
     GameObject targetObject;
     GameObject turretObject;
     Projectile projectileValues;
@@ -39,9 +40,12 @@ public class NerfBulletTrajectory : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+
         if (explosionRadius > 0f)
         {
             Explode();
+            GameObject explosionDur = (GameObject)Instantiate(Explosion, transform.position, transform.rotation);
+            Destroy(explosionDur, 1f);
         }
         else
         {
@@ -52,6 +56,8 @@ public class NerfBulletTrajectory : MonoBehaviour
 
     void Explode()
     {
+        
+
         Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
         foreach (Collider collider in colliders)
         {
