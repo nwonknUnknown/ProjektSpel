@@ -291,7 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpawnposition: {fileID: 3524264913210982496}
   bulletSpawnrotation: {fileID: 6276128525729559130}
-  bullet: {fileID: 0}
+  bulletPrefab: []
   timeBetweenShots: 1
   turretDamage: 1
   turnspeed: 10
