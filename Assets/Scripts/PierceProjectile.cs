@@ -30,9 +30,9 @@ public class PierceProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (targetObject.GetComponent<EnemyStats>() != null)
+        if (other.GetComponent<EnemyStats>() != null)
         {
-            targetObject.GetComponent<EnemyStats>().RemoveHP(damage);
+            other.GetComponent<EnemyStats>().RemoveHP(damage);
             enemiesHitNumberSoFar++;
         }
     }
