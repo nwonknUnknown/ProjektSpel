@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class LazerSlowTower : TurretActions
 {
-    public LineRenderer linerenderer;
-    public float damageOT;
-    public float slowDown;
+    [SerializeField] LineRenderer linerenderer;
+    [SerializeField] float damageOT;
+    [SerializeField] float slowDown;
 
     internal override void Update()
     {
