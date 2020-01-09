@@ -3697,7 +3697,7 @@ MonoBehaviour:
   StrongTurretPrefab: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
   SlowTurretPrefab: {fileID: 0}
-  AoeTurretPrefab: {fileID: 159392877794788554, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
+  AoeTurretPrefab: {fileID: 6482986966276775536, guid: a3113534fc75a480f9738434f1dfffa1,
     type: 3}
   turretToBuild: {fileID: 0}
   CanBuild: 1
@@ -3755,7 +3755,7 @@ MonoBehaviour:
     type: 3}
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
   slowTurret: {fileID: 0}
-  aoeTurret: {fileID: 159392877794788554, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
+  aoeTurret: {fileID: 6482986966276775536, guid: a3113534fc75a480f9738434f1dfffa1,
     type: 3}
 --- !u!114 &161065239
 MonoBehaviour:
@@ -32519,7 +32519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Heavy Tower\n\n2x Damage\n1.5x Radius\n1 shot per \n2x seconds"
+  m_Text: "AoE Tower\n\n2x Damage\n1.5x Radius\n1 shot per \n2x seconds"
 --- !u!222 &1874474037
 CanvasRenderer:
   m_ObjectHideFlags: 0
