@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 135702607143497946}
   - component: {fileID: 4131922873968916592}
   - component: {fileID: 114414078383821526}
-  - component: {fileID: 135819881569436802}
   m_Layer: 10
   m_Name: AOEbullet
   m_TagString: Untagged
@@ -110,8 +109,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.2500001
+  m_Center: {x: 0, y: 3, z: 0}
 --- !u!114 &4131922873968916592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,19 +139,6 @@ MonoBehaviour:
   explosionRadius: 5
   Explosion: {fileID: 703741807387339121, guid: 9fdd80ff7bf944072aec02bd4968ad43,
     type: 3}
---- !u!135 &135819881569436802
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110892976742846}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 15
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1281483122382834
 GameObject:
   m_ObjectHideFlags: 0

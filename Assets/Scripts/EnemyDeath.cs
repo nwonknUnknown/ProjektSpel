@@ -17,7 +17,7 @@ public class EnemyDeath : MonoBehaviour {
 
         if (!GetComponent<PlayMyAnimation>())
         {
-
+            StartCoroutine(WaitAndRemoveColliders());
             Destroy(gameObject);
         }
         else
@@ -39,5 +39,14 @@ public class EnemyDeath : MonoBehaviour {
         Destroy(gameObject, .1f);
         yield return null;
     }
-    
+
+    IEnumerator WaitAndRemoveColliders()
+    {
+        yield return new WaitForSeconds(1);
+        GetComponent<Rigidbody>().isKinematic = false;
+        GetComponent<Rigidbody>().useGravity = true;
+        GetComponent<BoxCollider>().enabled = false;
+        Destroy(gameObject, .1f);
+        yield return null;
+    }
 }
