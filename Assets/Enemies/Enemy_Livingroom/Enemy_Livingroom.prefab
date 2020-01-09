@@ -17,8 +17,7 @@ GameObject:
   - component: {fileID: 8481775804485850184}
   - component: {fileID: 8863982370825005136}
   - component: {fileID: 720648871131726881}
-  - component: {fileID: 1044777674335249711}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_Livingroom
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -174,16 +173,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1044777674335249711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3814315215404926954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b688bf92f31d8e84cacb7abff6a11c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
