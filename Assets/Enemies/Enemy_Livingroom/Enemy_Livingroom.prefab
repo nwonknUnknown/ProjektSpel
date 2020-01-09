@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417d9db0440cb034a8d9b876169f7c5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1
+  hp: 10
   goldWorth: 4
 --- !u!54 &8481775804485850184
 Rigidbody:
@@ -152,8 +152,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.08618591, y: 0.43496883, z: 0.17872752}
-  m_Center: {x: -0.00015993835, y: 0.35372835, z: -0.034765374}
+  m_Size: {x: 0.08618591, y: 0.96184766, z: 0.17872752}
+  m_Center: {x: -0.00015993835, y: 0.6171678, z: -0.034765374}
 --- !u!95 &720648871131726881
 Animator:
   serializedVersion: 3
