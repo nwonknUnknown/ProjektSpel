@@ -704,7 +704,7 @@ RectTransform:
   m_GameObject: {fileID: 191488874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.20826925, y: 0.20826925, z: 0.20826925}
+  m_LocalScale: {x: 0.12490741, y: 0.12490741, z: 0.12490741}
   m_Children: []
   m_Father: {fileID: 1480957216}
   m_RootOrder: 5
@@ -736,20 +736,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 61fcee6a3f0454749b7b2f6342b7e1f2, type: 3}
-    m_FontSize: 150
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Objective:
-
-    Build Turrets to defend miss huggles from oncoming enemies '
+  m_Text: "Objective:\nBuild Turrets \nto defend miss huggles \nfrom oncoming enemies "
 --- !u!222 &191488877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6365,14 +6363,14 @@ RectTransform:
   m_GameObject: {fileID: 1481375737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6065, y: 0.6065, z: 0.6065}
+  m_LocalScale: {x: 0.32001367, y: 0.32001367, z: 0.32001367}
   m_Children: []
   m_Father: {fileID: 1480957216}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 192}
+  m_AnchoredPosition: {x: 60, y: 212}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.49999994, y: 0.50000024}
 --- !u!114 &1481375739
@@ -6397,11 +6395,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 61fcee6a3f0454749b7b2f6342b7e1f2, type: 3}
-    m_FontSize: 100
+    m_FontSize: 300
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6429,7 +6427,7 @@ GameObject:
   - component: {fileID: 1507992495}
   - component: {fileID: 1507992494}
   m_Layer: 5
-  m_Name: You must save (1)
+  m_Name: Electric Boogaloo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6444,7 +6442,7 @@ RectTransform:
   m_GameObject: {fileID: 1507992492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6065, y: 0.6065, z: 0.6065}
+  m_LocalScale: {x: 0.21637495, y: 0.21637495, z: 0.21637495}
   m_Children: []
   m_Father: {fileID: 1480957216}
   m_RootOrder: 2
@@ -6476,11 +6474,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 61fcee6a3f0454749b7b2f6342b7e1f2, type: 3}
-    m_FontSize: 100
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6525,7 +6523,7 @@ RectTransform:
   m_GameObject: {fileID: 1547890813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6065009, y: 0.6065009, z: 0.6065009}
+  m_LocalScale: {x: 0.28732374, y: 0.28732374, z: 0.28732374}
   m_Children: []
   m_Father: {fileID: 1480957216}
   m_RootOrder: 1
@@ -6557,11 +6555,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 61fcee6a3f0454749b7b2f6342b7e1f2, type: 3}
-    m_FontSize: 150
+    m_FontSize: 300
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 150
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
