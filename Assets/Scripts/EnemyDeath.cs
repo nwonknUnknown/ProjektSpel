@@ -15,7 +15,16 @@ public class EnemyDeath : MonoBehaviour {
 
         WavesManager.instance.enemiesOnMap--;
 
-        StartCoroutine(Die());
+        if (!GetComponent<PlayMyAnimation>())
+        {
+
+            Destroy(gameObject);
+        }
+        else
+        {
+
+            StartCoroutine(Die());
+        }
     }
     
     //remove collider, and later destroy object

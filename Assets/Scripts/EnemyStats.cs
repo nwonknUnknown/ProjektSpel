@@ -20,6 +20,7 @@ public class EnemyStats : MonoBehaviour
             isDead = true;
             GoldManager.instance.IncreaseGold(goldWorth);
             GetComponent<EnemyDeath>().Death();
+            
         }
     }
 }

@@ -104,8 +104,15 @@ public class TurretActions : MonoBehaviour
         time += Time.deltaTime;
         if (time >= timeBetweenShots && currentAmmo > 0)
         {
-            GetComponentInChildren<PlayMyAnimation>().PlayShoot();
+            if (GetComponentInChildren<PlayMyAnimation>())
+            {
+                GetComponentInChildren<PlayMyAnimation>().PlayShoot();
+            }
+            if (GetComponent<Soundcontroller>())
+            {
+
             GetComponent<Soundcontroller>().PlaySound();
+            }
             Projectile thisBullet = Instantiate(bulletPrefab[curBulletPrefab], bulletSpawnposition.position, bulletSpawnrotation.rotation);
             thisBullet.AssignTarget(target);
             thisBullet.AssignTurret(gameObject);

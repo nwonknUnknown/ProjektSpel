@@ -38,7 +38,7 @@ public class NerfBulletTrajectory : MonoBehaviour
         transform.Translate(0, 0, bulletSpeed * Time.deltaTime * 100);
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider collision)
     {
 
         if (explosionRadius > 0f)
