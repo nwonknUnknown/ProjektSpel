@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Sink
+  m_Name: M_BathroomSink
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: c7420a94ce235894d822d661c02013ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6c8a6905418b45b43957509c836c35f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 62bbe746d9b71e74ab3bc4f7b1b9872c, type: 3}
+        m_Texture: {fileID: 2800000, guid: b2dd9a397e939854a9a70656f0ee5a39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: d4b3f366d5c1ab44c8c929d5b88cdf2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: a626f41788924d44ca142bf9e68ca150, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -67,7 +67,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
+    - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
