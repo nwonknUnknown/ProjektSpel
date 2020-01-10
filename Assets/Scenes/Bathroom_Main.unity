@@ -3917,7 +3917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d59785e930617242ac893fd9a11e164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startGold: 500
+  _startGold: 150
   goldCanvas: {fileID: 1554486193}
 --- !u!4 &161065233
 Transform:
@@ -4175,7 +4175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985a86770f443da468154ce1b1c2be36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startHp: 10
+  _startHp: 15
   hpCanvas: {fileID: 187162914}
   hpVisual: {fileID: 1342150428}
 --- !u!114 &161065237
