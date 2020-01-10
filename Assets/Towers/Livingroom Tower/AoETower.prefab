@@ -362,7 +362,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1862467671528357914}
         m_MethodName: RefillAmmo
         m_Mode: 1
         m_Arguments:
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 6482986966018051514}
   - component: {fileID: 6482986966018051508}
   - component: {fileID: 6482986966018051509}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AmmoReloadSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 6482986966033040763}
   - component: {fileID: 6482986966033040757}
   - component: {fileID: 6482986966033040762}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5498,7 +5498,7 @@ GameObject:
   - component: {fileID: 6482986966276775539}
   - component: {fileID: 1862467671528357914}
   - component: {fileID: 5690446288696490166}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AoETower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5549,7 +5549,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4295031, y: 1.4290681, z: 1.3784428}
+  m_Size: {x: 1.4295031, y: 2.5, z: 1.3784428}
   m_Center: {x: -0.009382427, y: 0.6010549, z: 0.0035581589}
 --- !u!1 &6482986966372150283
 GameObject:
@@ -5653,7 +5653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6482986966450717912}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BulletSpawnPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5892,7 +5892,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1862467671528357914}
         m_MethodName: RefillAmmo
         m_Mode: 1
         m_Arguments:
@@ -5920,7 +5920,7 @@ GameObject:
   - component: {fileID: 6482986966669712513}
   - component: {fileID: 6482986966669712518}
   - component: {fileID: 6482986966669712519}
-  m_Layer: 5
+  m_Layer: 11
   m_Name: NoAmmoUI
   m_TagString: turretUI
   m_Icon: {fileID: 0}
@@ -6226,7 +6226,7 @@ GameObject:
   - component: {fileID: 6482986967172668887}
   - component: {fileID: 6482986967172668881}
   - component: {fileID: 6482986967172668886}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: TurretRangeIndicator
   m_TagString: turretUI
   m_Icon: {fileID: 0}
@@ -6304,7 +6304,7 @@ GameObject:
   - component: {fileID: 6482986967256658907}
   - component: {fileID: 6482986967256658901}
   - component: {fileID: 6482986967256658906}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Candle AOE Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6900,6 +6900,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Candle AOE Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481698582208742589, guid: f9f40ed170473c143858b13438a1cf57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481698582208742589, guid: f9f40ed170473c143858b13438a1cf57,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6621331289570446554, guid: f9f40ed170473c143858b13438a1cf57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f40ed170473c143858b13438a1cf57, type: 3}
