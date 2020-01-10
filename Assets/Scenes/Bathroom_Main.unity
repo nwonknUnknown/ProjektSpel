@@ -398,10 +398,10 @@ MonoBehaviour:
   timeBetweenSpawns: 1
   goldRewardAfterWave: 50
   numberOfEnemiesWave1: 030000000300000003000000
-  numberOfEnemiesWave2: 090000000900000003000000
-  numberOfEnemiesWave3: 150000001500000006000000
-  numberOfEnemiesWave4: 230000002300000009000000
-  numberOfEnemiesWave5: 090000000900000063000000
+  numberOfEnemiesWave2: 060000000600000003000000
+  numberOfEnemiesWave3: 0c0000000c00000004000000
+  numberOfEnemiesWave4: 180000001800000006000000
+  numberOfEnemiesWave5: 090000000900000051000000
 --- !u!1 &9798082
 GameObject:
   m_ObjectHideFlags: 0
