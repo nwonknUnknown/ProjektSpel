@@ -3917,7 +3917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d59785e930617242ac893fd9a11e164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startGold: 150
+  _startGold: 300
   goldCanvas: {fileID: 1554486193}
 --- !u!4 &161065233
 Transform:

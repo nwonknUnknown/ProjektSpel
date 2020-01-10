@@ -6241,7 +6241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6482986967172668884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -51.128395, y: -3.911206, z: -4.449392}
+  m_LocalPosition: {x: -0.4, y: -3.911206, z: -4.449392}
   m_LocalScale: {x: 48, y: 0.08350413, z: 48}
   m_Children: []
   m_Father: {fileID: 6482986965900564425}
@@ -6719,13 +6719,13 @@ MonoBehaviour:
   bulletSpawnrotation: {fileID: 6482986967671683009}
   bulletPrefab:
   - {fileID: 4131922873968916592, guid: c5430a6dca1b74be0a2a55e1cc47ede7, type: 3}
-  timeBetweenShots: 2
-  turretDamage: 7
+  timeBetweenShots: 3
+  turretDamage: 8
   turnspeed: 10
   startAmmo: 12
-  currentAmmo: 0
+  currentAmmo: 12
   bulletCost: 3
-  turretCost: 1
+  turretCost: 80
 --- !u!82 &6482986967671683011
 AudioSource:
   m_ObjectHideFlags: 0
