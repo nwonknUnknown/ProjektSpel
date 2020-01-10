@@ -28,6 +28,7 @@ public class TurretActions : MonoBehaviour
 
     public void Start()
     {
+        time = timeBetweenShots;
         currentAmmo = startAmmo;
         transform.parent.Find("TurretUI").gameObject.SetActive(true);
         transform.parent.Find("TurretUI").Find("Choices").Find("CurrentAmmo").GetComponentInChildren<UpdateMyText>().UpdateMyTextAsInt(currentAmmo);

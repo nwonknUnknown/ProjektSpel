@@ -2813,7 +2813,7 @@ MonoBehaviour:
   startAmmo: 15
   currentAmmo: 15
   bulletCost: 2
-  turretCost: 80
+  turretCost: 50
 --- !u!114 &114872404252876810
 MonoBehaviour:
   m_ObjectHideFlags: 0
