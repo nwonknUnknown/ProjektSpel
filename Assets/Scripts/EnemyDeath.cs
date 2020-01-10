@@ -18,7 +18,8 @@ public class EnemyDeath : MonoBehaviour {
         if (!GetComponent<PlayMyAnimation>())
         {
             StartCoroutine(WaitAndRemoveColliders());
-            Destroy(gameObject);
+
+            //Destroy(gameObject);
         }
         else
         {
