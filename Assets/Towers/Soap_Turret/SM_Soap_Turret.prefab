@@ -290,8 +290,8 @@ MonoBehaviour:
   bulletCost: 0
   turretCost: 0
   linerenderer: {fileID: 166721250830577915}
-  damageOT: 0
-  slowDown: 1
+  damageOT: 0.1
+  slowDown: 2
 --- !u!1 &166721251721177384
 GameObject:
   m_ObjectHideFlags: 0
