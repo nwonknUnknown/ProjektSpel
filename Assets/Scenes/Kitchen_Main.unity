@@ -3655,7 +3655,7 @@ MonoBehaviour:
     type: 3}
   SlowTurretPrefab: {fileID: 0}
   AoeTurretPrefab: {fileID: 0}
-  PierceTurretPrefab: {fileID: 1019628498292334090, guid: 204c590f2703845259dc9f1fd108a769,
+  PierceTurretPrefab: {fileID: 2539634182803899953, guid: 204c590f2703845259dc9f1fd108a769,
     type: 3}
   turretToBuild: {fileID: 0}
   CanBuild: 1
@@ -3714,7 +3714,7 @@ MonoBehaviour:
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
   slowTurret: {fileID: 0}
   aoeTurret: {fileID: 0}
-  piercingTurret: {fileID: 1019628498292334090, guid: 204c590f2703845259dc9f1fd108a769,
+  piercingTurret: {fileID: 2539634182803899953, guid: 204c590f2703845259dc9f1fd108a769,
     type: 3}
   superTurret: {fileID: 0}
 --- !u!114 &161065239
