@@ -4156,7 +4156,7 @@ MonoBehaviour:
     type: 3}
   StrongTurretPrefab: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
-  SlowTurretPrefab: {fileID: 616691909634741026, guid: 0ca47556582e84c70b17fe6e6e4c1d1c,
+  SlowTurretPrefab: {fileID: 166721251721177384, guid: 85d73554b76811140993e26a86843e9b,
     type: 3}
   AoeTurretPrefab: {fileID: 7374144159404676304, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
     type: 3}
@@ -4216,7 +4216,7 @@ MonoBehaviour:
   strongTurret: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
     type: 3}
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
-  slowTurret: {fileID: 616691909634741026, guid: 0ca47556582e84c70b17fe6e6e4c1d1c,
+  slowTurret: {fileID: 166721251721177384, guid: 85d73554b76811140993e26a86843e9b,
     type: 3}
   aoeTurret: {fileID: 7374144159404676304, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
     type: 3}
