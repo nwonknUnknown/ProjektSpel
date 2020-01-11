@@ -633,7 +633,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3670886342154181168}
         m_MethodName: RefillAmmo
         m_Mode: 1
         m_Arguments:
