@@ -3649,6 +3649,9 @@ MonoBehaviour:
   buildPierceTowerButton: {fileID: 1188328697}
   buildPierceTowerButtonCancel: {fileID: 1236915748}
   buildPierceTowerButtonStats: {fileID: 999758103}
+  buildSuperTowerButton: {fileID: 0}
+  buildSuperTowerButtonCancel: {fileID: 0}
+  buildSuperTowerButtonStats: {fileID: 0}
   WeakTurretPrefab: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
     type: 3}
   StrongTurretPrefab: {fileID: 0}
@@ -3657,6 +3660,7 @@ MonoBehaviour:
   AoeTurretPrefab: {fileID: 0}
   PierceTurretPrefab: {fileID: 1079255518397882491, guid: 204c590f2703845259dc9f1fd108a769,
     type: 3}
+  SuperTurretPrefab: {fileID: 0}
   turretToBuild: {fileID: 0}
   CanBuild: 1
 --- !u!114 &161065236
@@ -7829,9 +7833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f1c50d9c807f745a25e166b2285584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretWithStats: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
+  turretWithStats: {fileID: 1079255518397882491, guid: 204c590f2703845259dc9f1fd108a769,
     type: 3}
-  turretName: Light Tower
+  turretName: Pierce Tower
   range: 1
 --- !u!114 &345653326
 MonoBehaviour:
