@@ -518,6 +518,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.63
       objectReference: {fileID: 0}
+    - target: {fileID: 2439879616524989936, guid: c592c856f4b005b41aec8115751731ef,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c592c856f4b005b41aec8115751731ef, type: 3}
 --- !u!1 &434427690
@@ -635,7 +640,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 65.403, y: 0, z: 0}
 --- !u!1 &641353986
 GameObject:
@@ -2138,7 +2143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1493592045
 GameObject:
@@ -2168,7 +2173,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635175262
 GameObject:
@@ -3297,7 +3302,7 @@ RectTransform:
   - {fileID: 1332841967}
   - {fileID: 641353987}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3755,6 +3760,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665810060904928842, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 194.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -203.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 389.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810061948773059, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 407.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 584.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -203.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 389.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 665810062447814080, guid: b302117a5d2344fdc9ce5d03774ff833,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 407.3
+      objectReference: {fileID: 0}
     - target: {fileID: 929931479106098420, guid: b302117a5d2344fdc9ce5d03774ff833,
         type: 3}
       propertyPath: m_Name
