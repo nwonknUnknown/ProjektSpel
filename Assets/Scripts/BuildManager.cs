@@ -10,29 +10,29 @@ public class BuildManager : MonoBehaviour
 
     public static BuildManager instance;
 
-    public GameObject buildWeakTowerButton;
-    public GameObject buildWeakTowerButtonCancel;
-    public GameObject buildWeakTowerButtonStats;
+    [SerializeField] GameObject buildWeakTowerButton;
+    [SerializeField] GameObject buildWeakTowerButtonCancel;
+    [SerializeField] GameObject buildWeakTowerButtonStats;
 
-    public GameObject buildStrongTowerButton;
-    public GameObject buildStrongTowerButtonCancel;
-    public GameObject buildStrongTowerButtonStats;
+    [SerializeField] GameObject buildStrongTowerButton;
+    [SerializeField] GameObject buildStrongTowerButtonCancel;
+    [SerializeField] GameObject buildStrongTowerButtonStats;
 
-    public GameObject buildSlowTowerButton;
-    public GameObject buildSlowTowerButtonCancel;
-    public GameObject buildSlowTowerButtonStats;
+    [SerializeField] GameObject buildSlowTowerButton;
+    [SerializeField] GameObject buildSlowTowerButtonCancel;
+    [SerializeField] GameObject buildSlowTowerButtonStats;
 
-    public GameObject buildAoeTowerButton;
-    public GameObject buildAoeTowerButtonCancel;
-    public GameObject buildAoeTowerButtonStats;
+    [SerializeField] GameObject buildAoeTowerButton;
+    [SerializeField] GameObject buildAoeTowerButtonCancel;
+    [SerializeField] GameObject buildAoeTowerButtonStats;
 
-    public GameObject buildPierceTowerButton;
-    public GameObject buildPierceTowerButtonCancel;
-    public GameObject buildPierceTowerButtonStats;
+    [SerializeField] GameObject buildPierceTowerButton;
+    [SerializeField] GameObject buildPierceTowerButtonCancel;
+    [SerializeField] GameObject buildPierceTowerButtonStats;
 
-    public GameObject buildSuperTowerButton;
-    public GameObject buildSuperTowerButtonCancel;
-    public GameObject buildSuperTowerButtonStats;
+    [SerializeField] GameObject buildSuperTowerButton;
+    [SerializeField] GameObject buildSuperTowerButtonCancel;
+    [SerializeField] GameObject buildSuperTowerButtonStats;
 
 
 
@@ -41,12 +41,12 @@ public class BuildManager : MonoBehaviour
         instance = this;
     }
 
-    public GameObject WeakTurretPrefab;
-    public GameObject StrongTurretPrefab;
-    public GameObject SlowTurretPrefab;
-    public GameObject AoeTurretPrefab;
-    public GameObject PierceTurretPrefab;
-    public GameObject SuperTurretPrefab;
+    [SerializeField] GameObject WeakTurretPrefab;
+    [SerializeField] GameObject StrongTurretPrefab;
+    [SerializeField] GameObject SlowTurretPrefab;
+    [SerializeField] GameObject AoeTurretPrefab;
+    [SerializeField] GameObject PierceTurretPrefab;
+    [SerializeField] GameObject SuperTurretPrefab;
 
 
     TheTurretsUI theTurretsUI;
@@ -88,8 +88,8 @@ public class BuildManager : MonoBehaviour
         selectedTurret.GetComponent<TheTurretsUI>().ShowUI();
         GetComponent<BuildingMode>().HideWeakBuildablePlots();
         GetComponent<BuildingMode>().HideStrongBuildablePlots();
-        GetComponent<BuildingMode>().HideSlowBuildablePlots();
-        GetComponent<BuildingMode>().HideAoeBuildablePlots();
+        //GetComponent<BuildingMode>().HideSlowBuildablePlots();
+        //GetComponent<BuildingMode>().HideAoeBuildablePlots();
         buildWeakTowerButton.SetActive(true);
         buildWeakTowerButtonCancel.SetActive(false);
         buildWeakTowerButtonStats.SetActive(false);

@@ -10,9 +10,9 @@ public class BuildingMode : MonoBehaviour
 
 
     public GameObject[] weakTurretPlots;
-    public GameObject[] slowTurretPlots;
+    //public GameObject[] slowTurretPlots;
     public GameObject[] strongTurretPlots;
-    public GameObject[] aoeTurretPlots;
+    //public GameObject[] aoeTurretPlots;
 
     public void ShowWeakBuildablePlots()
     {
@@ -36,7 +36,7 @@ public class BuildingMode : MonoBehaviour
         }
     }
 
-    public void ShowAoeBuildablePlots()
+    /*public void ShowAoeBuildablePlots()
     {
         for (int i = 0; i < aoeTurretPlots.Length; i++)
         {
@@ -46,7 +46,7 @@ public class BuildingMode : MonoBehaviour
             }
         }
     }
-
+    
     public void ShowSlowBuildablePlots()
     {
         for (int i = 0; i < slowTurretPlots.Length; i++)
@@ -56,7 +56,7 @@ public class BuildingMode : MonoBehaviour
                 slowTurretPlots[i].SetActive(true);
             }
         }
-    }
+    }*/
 
     public void HideWeakBuildablePlots()
     {
@@ -74,7 +74,7 @@ public class BuildingMode : MonoBehaviour
         }
     }
 
-    public void HideAoeBuildablePlots()
+    /*public void HideAoeBuildablePlots()
     {
         for (int i = 0; i < aoeTurretPlots.Length; i++)
         {
@@ -88,5 +88,5 @@ public class BuildingMode : MonoBehaviour
         {
             weakTurretPlots[i].SetActive(false);
         }
-    }
+    }*/
 }
