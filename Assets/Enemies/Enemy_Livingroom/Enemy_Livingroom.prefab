@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03745af9ef925b0448958e8b88fc8f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMovementspeed: 1
+  startMovementspeed: 1.5
   currentMovementspeed: 0
   waypointPath: {fileID: 0}
   goal: {fileID: 0}
@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417d9db0440cb034a8d9b876169f7c5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
-  goldWorth: 4
+  hp: 5
+  goldWorth: 5
 --- !u!54 &8481775804485850184
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03745af9ef925b0448958e8b88fc8f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMovementspeed: 3
+  startMovementspeed: 2
   currentMovementspeed: 0
   waypointPath: {fileID: 0}
   goal: {fileID: 0}

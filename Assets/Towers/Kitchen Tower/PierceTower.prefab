@@ -1198,12 +1198,12 @@ MonoBehaviour:
   bulletPrefab:
   - {fileID: 1465473433675679975, guid: 8b4b1463d11065843b6248453f416a80, type: 3}
   timeBetweenShots: 2
-  turretDamage: 7
+  turretDamage: 4
   turnspeed: 10
   startAmmo: 5
   currentAmmo: 0
   bulletCost: 3
-  turretCost: 1
+  turretCost: 150
 --- !u!82 &4414166793479630667
 AudioSource:
   m_ObjectHideFlags: 0
