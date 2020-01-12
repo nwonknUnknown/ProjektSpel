@@ -4152,6 +4152,9 @@ MonoBehaviour:
   buildPierceTowerButton: {fileID: 0}
   buildPierceTowerButtonCancel: {fileID: 0}
   buildPierceTowerButtonStats: {fileID: 0}
+  buildSuperTowerButton: {fileID: 0}
+  buildSuperTowerButtonCancel: {fileID: 0}
+  buildSuperTowerButtonStats: {fileID: 0}
   WeakTurretPrefab: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
     type: 3}
   StrongTurretPrefab: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
@@ -4161,6 +4164,7 @@ MonoBehaviour:
   AoeTurretPrefab: {fileID: 7374144159404676304, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
     type: 3}
   PierceTurretPrefab: {fileID: 0}
+  SuperTurretPrefab: {fileID: 0}
   turretToBuild: {fileID: 0}
   CanBuild: 1
 --- !u!114 &161065236
@@ -20787,9 +20791,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f1c50d9c807f745a25e166b2285584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretWithStats: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
+  turretWithStats: {fileID: 8748293855188384826, guid: 85d73554b76811140993e26a86843e9b,
     type: 3}
-  turretName: Light Tower
+  turretName: Soap Tower
   range: 1
 --- !u!114 &1075881848
 MonoBehaviour:

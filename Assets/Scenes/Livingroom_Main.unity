@@ -33012,9 +33012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f1c50d9c807f745a25e166b2285584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretWithStats: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
+  turretWithStats: {fileID: 6482986966276775536, guid: a3113534fc75a480f9738434f1dfffa1,
     type: 3}
-  turretName: Heavy Tower
+  turretName: AOE Tower
   range: 2
 --- !u!114 &1874474036
 MonoBehaviour:
