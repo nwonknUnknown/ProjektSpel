@@ -75,7 +75,12 @@ ModelImporter:
     4300000: RAt
     9500000: //RootNode
     13700000: RAt
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 5991d1ceec2269f42aeac81b66475247, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -127,7 +132,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.8
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
