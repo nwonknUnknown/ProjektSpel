@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7651727675352657558}
   - component: {fileID: 820548137308488330}
   - component: {fileID: 2060079882249166246}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 1999013050582827190}
   - component: {fileID: 4575053855501845524}
   - component: {fileID: 1868758203125978004}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,9 +273,9 @@ GameObject:
   - component: {fileID: 5744853363003538779}
   - component: {fileID: 2907532158809277428}
   - component: {fileID: 8894443633113850127}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TurretUI
-  m_TagString: turretUI
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 5886185544536998642}
   - component: {fileID: 3598946311614989367}
   - component: {fileID: 2014867637013398446}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 3877642433816537395}
   - component: {fileID: 3349456965307205469}
   - component: {fileID: 3153982428914500148}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 3822530854832556819}
   - component: {fileID: 6029985850287790738}
   - component: {fileID: 7534239463184706446}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: NoAmmoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ GameObject:
   - component: {fileID: 940283321219210451}
   - component: {fileID: 2340541723586813534}
   - component: {fileID: 7624376439970003031}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: b9ce6b62948c03c40b2529ec9c65a0d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 95060672901420359}
   - component: {fileID: 6073132944459329918}
   - component: {fileID: 8659355580247885930}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1208,9 +1208,9 @@ GameObject:
   - component: {fileID: 1140468565352915992}
   - component: {fileID: 1999538658245571732}
   - component: {fileID: 6787378000641855342}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: NoAmmoUI
-  m_TagString: turretUI
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1387,7 +1387,7 @@ GameObject:
   - component: {fileID: 7496233051199330774}
   - component: {fileID: 615486907176439775}
   - component: {fileID: 1564466155225049892}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: RefillAmmo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1495,18 +1495,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6990819670942922565}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: RefillAmmo
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!223 &615486907176439775
@@ -1562,7 +1551,7 @@ GameObject:
   - component: {fileID: 196827572921482822}
   - component: {fileID: 3391456842223604072}
   - component: {fileID: 2810419232105699662}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Choices
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1749,7 +1738,7 @@ GameObject:
   - component: {fileID: 2736008907235815916}
   - component: {fileID: 1160569920644939336}
   - component: {fileID: 5050803897550405980}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CurrentAmmo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1871,7 +1860,7 @@ GameObject:
   - component: {fileID: 9153921162002683452}
   - component: {fileID: 4541169584671405768}
   - component: {fileID: 7102037808548807577}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1950,7 +1939,6 @@ GameObject:
   - component: {fileID: 2683657774221308343}
   - component: {fileID: 6739498963335842797}
   - component: {fileID: 6805629705754007256}
-  - component: {fileID: 4441275467738316987}
   m_Layer: 11
   m_Name: SM_Soap_Turret
   m_TagString: Untagged
@@ -2103,21 +2091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8d19364f830ba4e8106860e7a6c84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4441275467738316987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4640430034735731154, guid: 85d73554b76811140993e26a86843e9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8748293855188384826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b239fc7eb6cf10489b75e7fd1fe4d15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ui: {fileID: 598147381295433848}
-  turretRangeIndicator: {fileID: 9098975146119351537}
 --- !u!1 &8955007617097979086
 GameObject:
   m_ObjectHideFlags: 0
