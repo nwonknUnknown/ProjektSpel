@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 3
-  goldWorth: 3
+  goldWorth: 1
 --- !u!82 &82873265045443586
 AudioSource:
   m_ObjectHideFlags: 0

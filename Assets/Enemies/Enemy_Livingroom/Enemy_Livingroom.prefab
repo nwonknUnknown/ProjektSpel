@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 5
-  goldWorth: 5
+  goldWorth: 2
 --- !u!54 &8481775804485850184
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 6
-  goldWorth: 6
+  goldWorth: 3
 --- !u!82 &82434880559926164
 AudioSource:
   m_ObjectHideFlags: 0
