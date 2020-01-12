@@ -1196,7 +1196,7 @@ MonoBehaviour:
   bulletSpawnposition: {fileID: 2070326400069863962}
   bulletSpawnrotation: {fileID: 6921289516634201406}
   bulletPrefab:
-  - {fileID: 1465473433675679975, guid: 8b4b1463d11065843b6248453f416a80, type: 3}
+  - {fileID: 2397686334383552277, guid: 2237a0f8be0cc4ef8806cbc36f8bd8b1, type: 3}
   timeBetweenShots: 2
   turretDamage: 4
   turnspeed: 10
