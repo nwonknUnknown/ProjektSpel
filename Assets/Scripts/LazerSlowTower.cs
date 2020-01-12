@@ -7,6 +7,7 @@ public class LazerSlowTower : TurretActions
     [SerializeField] LineRenderer linerenderer;
     [SerializeField] float damageOT;
     [SerializeField] float slowDown;
+    public ParticleSystem enemyHitEffect;
 
     internal override void Update()
     {
@@ -16,7 +17,12 @@ public class LazerSlowTower : TurretActions
             {
 
                 if (linerenderer.enabled)
+                {
+
                     linerenderer.enabled = false;
+                    enemyHitEffect.Stop();
+                }
+                   
                 return;
             }
         }
@@ -35,9 +41,20 @@ public class LazerSlowTower : TurretActions
         target.GetComponent<EnemyMovement>().Slow(slowDown);
 
         if (!linerenderer.enabled)
+        {
             linerenderer.enabled = true;
+            enemyHitEffect.Play();
+        }
+            
 
         linerenderer.SetPosition(0, bulletSpawnposition.position);
         linerenderer.SetPosition(1, target.transform.position);
+
+        Vector3 dir = bulletSpawnposition.position - target.transform.position;
+
+        enemyHitEffect.transform.position = target.transform.position + dir.normalized * .5f;
+        
+        enemyHitEffect.transform.rotation = Quaternion.LookRotation(dir);
+
     }
 }
