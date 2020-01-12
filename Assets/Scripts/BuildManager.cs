@@ -30,6 +30,12 @@ public class BuildManager : MonoBehaviour
     public GameObject buildPierceTowerButtonCancel;
     public GameObject buildPierceTowerButtonStats;
 
+    public GameObject buildSuperTowerButton;
+    public GameObject buildSuperTowerButtonCancel;
+    public GameObject buildSuperTowerButtonStats;
+
+
+
     private void Awake()
     {
         instance = this;
@@ -40,6 +46,7 @@ public class BuildManager : MonoBehaviour
     public GameObject SlowTurretPrefab;
     public GameObject AoeTurretPrefab;
     public GameObject PierceTurretPrefab;
+    public GameObject SuperTurretPrefab;
 
 
     TheTurretsUI theTurretsUI;
@@ -98,6 +105,9 @@ public class BuildManager : MonoBehaviour
         buildPierceTowerButton.SetActive(true);
         buildPierceTowerButtonCancel.SetActive(false);
         buildPierceTowerButtonStats.SetActive(false);
+        buildSuperTowerButton.SetActive(true);
+        buildSuperTowerButtonCancel.SetActive(false);
+        buildSuperTowerButtonStats.SetActive(false);
 
 
         turretToBuild = null;
