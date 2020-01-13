@@ -391,12 +391,12 @@ MonoBehaviour:
   _waveCompleteUI: {fileID: 149153678}
   _startNextWaveUI: {fileID: 147808688}
   _startNextWaveUIButton: {fileID: 1576615473}
-  nextWaveSound: {fileID: 0}
+  nextWaveSound: {fileID: 318395794}
   enemiesOnMap: 0
   enemiesToBeSpawned: 0
   timeToFirstSpawn: 5
   timeBetweenSpawns: 1
-  goldRewardAfterWave: 50
+  goldRewardAfterWave: 80
   numberOfEnemiesWave1: 030000000300000003000000
   numberOfEnemiesWave2: 060000000600000003000000
   numberOfEnemiesWave3: 0c0000000c00000004000000
@@ -4177,7 +4177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985a86770f443da468154ce1b1c2be36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startHp: 15
+  _startHp: 10
   hpCanvas: {fileID: 187162914}
   hpVisual: {fileID: 1342150428}
 --- !u!114 &161065237
@@ -4193,16 +4193,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lightning: {fileID: 496770646}
-  _camera: {fileID: 0}
+  _camera: {fileID: 1786056809}
   _youLostUI: {fileID: 1527681028}
   _nomalUI: {fileID: 147344404}
   _loosingEffectLightning: {fileID: 1136875685}
   _waveCompleteUI: {fileID: 149153678}
   _gameCompletedUI: {fileID: 487032811}
-  defaultMusic: {fileID: 0}
-  winningMusic: {fileID: 0}
-  lostStinger: {fileID: 0}
-  winStinger: {fileID: 0}
+  defaultMusic: {fileID: 1176322865}
+  winningMusic: {fileID: 841763193}
+  lostStinger: {fileID: 166349377}
+  winStinger: {fileID: 1165756945}
 --- !u!114 &161065238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6146,6 +6146,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_WashingMachine
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.36
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.82
@@ -6194,14 +6202,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9e49e1aef45f56349bb318eb3f16a406, type: 2}
-    - target: {fileID: 400000, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.36
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78951c84fe1ee9240a50fc36ed0c9293, type: 3}
 --- !u!1 &247700458
