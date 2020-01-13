@@ -5121,7 +5121,7 @@ GameObject:
   - component: {fileID: 187162917}
   - component: {fileID: 187162916}
   - component: {fileID: 187162918}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25732,7 +25732,7 @@ GameObject:
   - component: {fileID: 1342150431}
   - component: {fileID: 1342150430}
   - component: {fileID: 1342150433}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: HP visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25748,7 +25748,7 @@ RectTransform:
   m_GameObject: {fileID: 1342150428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.35879, y: 1.0213889, z: 1.35879}
+  m_LocalScale: {x: 1, y: 0.8126, z: 1}
   m_Children:
   - {fileID: 187162915}
   m_Father: {fileID: 147344405}
@@ -25756,7 +25756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 580, y: -85}
+  m_AnchoredPosition: {x: 516, y: -85}
   m_SizeDelta: {x: 100, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1342150430
