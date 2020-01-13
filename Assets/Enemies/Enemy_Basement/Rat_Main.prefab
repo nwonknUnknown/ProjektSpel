@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 6663137335043758178}
   - component: {fileID: 7355474319461402174}
   - component: {fileID: 900203873131200362}
-  - component: {fileID: 3584768603473581689}
-  - component: {fileID: 5688411973044999109}
-  - component: {fileID: 5590045099556093269}
   - component: {fileID: 7813855653957951298}
   - component: {fileID: 1690875136428754386}
+  - component: {fileID: 546499781715581254}
+  - component: {fileID: 2891002943990518213}
+  - component: {fileID: 2492263383148350321}
   m_Layer: 9
   m_Name: Rat_Main
   m_TagString: enemy
@@ -65,50 +65,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3584768603473581689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6499172110457396895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eb2e31b80c0a7e4180f06b0fe723a38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5688411973044999109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6499172110457396895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03745af9ef925b0448958e8b88fc8f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMovementspeed: 2
-  currentMovementspeed: 0
-  waypointPath: {fileID: 0}
-  goal: {fileID: 0}
---- !u!114 &5590045099556093269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6499172110457396895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 417d9db0440cb034a8d9b876169f7c5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: 4
-  goldWorth: 3
+  m_Size: {x: 1, y: 2.6712844, z: 1.0581619}
+  m_Center: {x: -3.082427e-17, y: 0.8356422, z: 0.029080927}
 --- !u!82 &7813855653957951298
 AudioSource:
   m_ObjectHideFlags: 0
@@ -217,6 +175,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8d19364f830ba4e8106860e7a6c84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &546499781715581254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499172110457396895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb2e31b80c0a7e4180f06b0fe723a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2891002943990518213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499172110457396895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03745af9ef925b0448958e8b88fc8f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMovementspeed: 2.3
+  currentMovementspeed: 0
+  waypointPath: {fileID: 0}
+  goal: {fileID: 0}
+--- !u!114 &2492263383148350321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6499172110457396895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417d9db0440cb034a8d9b876169f7c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 8
+  goldWorth: 4
 --- !u!1001 &1430693483261531323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232,12 +232,12 @@ PrefabInstance:
     - target: {fileID: 7134019544846963992, guid: a1a770b4e072d2844aef26ec2a6aa4e9,
         type: 3}
       propertyPath: m_TagString
-      value: enemy
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7134019544846963992, guid: a1a770b4e072d2844aef26ec2a6aa4e9,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7134019544846928248, guid: a1a770b4e072d2844aef26ec2a6aa4e9,
         type: 3}

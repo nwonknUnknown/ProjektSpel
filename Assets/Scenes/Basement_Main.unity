@@ -397,7 +397,7 @@ MonoBehaviour:
   enemiesToBeSpawned: 0
   timeToFirstSpawn: 5
   timeBetweenSpawns: 1
-  goldRewardAfterWave: 50
+  goldRewardAfterWave: 80
   numberOfEnemiesWave1: 030000000300000001000000
   numberOfEnemiesWave2: 050000000f00000003000000
   numberOfEnemiesWave3: 0f0000001900000005000000
@@ -2544,7 +2544,7 @@ PrefabInstance:
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.64
+      value: 11.96
       objectReference: {fileID: 0}
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
@@ -3669,7 +3669,7 @@ PrefabInstance:
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.57
+      value: 11.78
       objectReference: {fileID: 0}
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
@@ -3795,11 +3795,11 @@ GameObject:
   - component: {fileID: 161065235}
   - component: {fileID: 161065236}
   - component: {fileID: 161065232}
-  - component: {fileID: 161065237}
   - component: {fileID: 161065238}
   - component: {fileID: 161065240}
   - component: {fileID: 161065239}
   - component: {fileID: 161065241}
+  - component: {fileID: 161065237}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985a86770f443da468154ce1b1c2be36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startHp: 1
+  _startHp: 10
   hpCanvas: {fileID: 187162914}
   hpVisual: {fileID: 1342150428}
 --- !u!114 &161065237
@@ -4093,8 +4093,7 @@ MonoBehaviour:
     type: 3}
   weakTurret: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56, type: 3}
   slowTurret: {fileID: 0}
-  aoeTurret: {fileID: 7374144159404676304, guid: 0e9c04ab0f80b4ceeb0027b95ae76710,
-    type: 3}
+  aoeTurret: {fileID: 0}
   piercingTurret: {fileID: 0}
   superTurret: {fileID: 665810062882595754, guid: b302117a5d2344fdc9ce5d03774ff833,
     type: 3}
@@ -8441,7 +8440,7 @@ PrefabInstance:
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.55
+      value: 11.82
       objectReference: {fileID: 0}
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
@@ -31161,7 +31160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764106834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.78, y: 0.5, z: 12.66}
+  m_LocalPosition: {x: 0.78, y: 0.5, z: 12.77}
   m_LocalScale: {x: 6.3688073, y: 1.4578, z: 2.397}
   m_Children: []
   m_Father: {fileID: 766965891}
@@ -31439,7 +31438,7 @@ PrefabInstance:
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.68
+      value: 11.93
       objectReference: {fileID: 0}
     - target: {fileID: 5983916846596220779, guid: 7ad12c6a8c8239c4e87b6e26d578e77b,
         type: 3}

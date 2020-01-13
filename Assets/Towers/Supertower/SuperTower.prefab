@@ -268,13 +268,13 @@ MonoBehaviour:
   bulletPrefab:
   - {fileID: 4131922873968916592, guid: c5430a6dca1b74be0a2a55e1cc47ede7, type: 3}
   - {fileID: 5830380761251084938, guid: 8dbd806ea3ffa46bdac525f3c89e79f0, type: 3}
-  timeBetweenShots: 2
-  turretDamage: 1
+  timeBetweenShots: 3
+  turretDamage: 3
   turnspeed: 10
-  startAmmo: 12
+  startAmmo: 10
   currentAmmo: 0
   bulletCost: 3
-  turretCost: 1
+  turretCost: 100
 --- !u!82 &665810061053228905
 AudioSource:
   m_ObjectHideFlags: 0
@@ -501,8 +501,8 @@ MonoBehaviour:
   bulletCost: 3
   turretCost: 0
   linerenderer: {fileID: 665810061053228911}
-  damageOT: 0
-  slowDown: 1
+  damageOT: 0.1
+  slowDown: 3
   enemyHitEffect: {fileID: 4227455958502399860}
 --- !u!1 &665810061109500378
 GameObject:
