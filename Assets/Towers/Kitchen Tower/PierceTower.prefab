@@ -37,7 +37,7 @@ RectTransform:
   - {fileID: 5877854209336377748}
   - {fileID: 1949626945404331364}
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -167,12 +167,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4485249046559140781}
+  - {fileID: 8398159893553322040}
   - {fileID: 6921289516634201406}
   - {fileID: 1151318150274912766}
   - {fileID: 3273145460172420184}
   - {fileID: 1331809241898052580}
-  - {fileID: 4485249046559140781}
-  - {fileID: 8398159893553322040}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -915,7 +915,7 @@ Transform:
   m_LocalScale: {x: 72.02284, y: 50.484238, z: 72.02284}
   m_Children: []
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3405320575278477598
 MeshFilter:
@@ -1164,7 +1164,7 @@ Transform:
   m_Children:
   - {fileID: 6922671675260621845}
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1326381477374713643
 SphereCollider:
@@ -1196,14 +1196,14 @@ MonoBehaviour:
   bulletSpawnposition: {fileID: 2070326400069863962}
   bulletSpawnrotation: {fileID: 6921289516634201406}
   bulletPrefab:
-  - {fileID: 2397686334383552277, guid: 2237a0f8be0cc4ef8806cbc36f8bd8b1, type: 3}
+  - {fileID: 5830380761251084938, guid: 8dbd806ea3ffa46bdac525f3c89e79f0, type: 3}
   timeBetweenShots: 2
   turretDamage: 4
   turnspeed: 10
-  startAmmo: 5
+  startAmmo: 8
   currentAmmo: 0
   bulletCost: 3
-  turretCost: 150
+  turretCost: 100
 --- !u!82 &4414166793479630667
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1346,7 +1346,7 @@ Transform:
   m_LocalScale: {x: 0.12968999, y: 0.12968999, z: 0.12968999}
   m_Children: []
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &3574985792616095268
 AudioSource:
@@ -1949,7 +1949,7 @@ Transform:
   m_LocalScale: {x: 7.975505, y: 0.01083, z: 8.521529}
   m_Children: []
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4516770352210874496
 MeshFilter:
@@ -2119,7 +2119,7 @@ RectTransform:
   - {fileID: 5062333644906451934}
   - {fileID: 5048583996730862153}
   m_Father: {fileID: 2300875211368432738}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
