@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417d9db0440cb034a8d9b876169f7c5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 5
+  hp: 6
   goldWorth: 2
 --- !u!54 &8481775804485850184
 Rigidbody:
