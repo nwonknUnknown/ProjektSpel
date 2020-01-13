@@ -4100,7 +4100,6 @@ MonoBehaviour:
   - {fileID: 2064503972}
   - {fileID: 933123027}
   - {fileID: 69040288}
-  slowTurretPlots: []
   strongTurretPlots:
   - {fileID: 1062020044}
   - {fileID: 1344841029}
@@ -4124,7 +4123,6 @@ MonoBehaviour:
   - {fileID: 926609381}
   - {fileID: 589335076}
   - {fileID: 1233966060}
-  aoeTurretPlots: []
 --- !u!114 &161065235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23519,7 +23517,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: beb85a66fb3caf94ebeb3b3458b23c8d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4067e8a379a53674e9c77be6b9da2d8f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
