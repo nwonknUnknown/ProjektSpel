@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 0.2
-  explosionRadius: 5
+  explosionRadius: 2
   Explosion: {fileID: 703741807387339121, guid: 9fdd80ff7bf944072aec02bd4968ad43,
     type: 3}
 --- !u!1 &1281483122382834
