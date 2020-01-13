@@ -421,11 +421,11 @@ MonoBehaviour:
   _nomalUI: {fileID: 147344404}
   _loosingEffectLightning: {fileID: 1136875685}
   _waveCompleteUI: {fileID: 149153678}
-  _gameCompletedUI: {fileID: 0}
-  defaultMusic: {fileID: 0}
-  winningMusic: {fileID: 0}
-  lostStinger: {fileID: 0}
-  winStinger: {fileID: 0}
+  _gameCompletedUI: {fileID: 487032811}
+  defaultMusic: {fileID: 1176322865}
+  winningMusic: {fileID: 841763193}
+  lostStinger: {fileID: 166349377}
+  winStinger: {fileID: 1165756945}
 --- !u!1 &9798082
 GameObject:
   m_ObjectHideFlags: 0
@@ -10445,7 +10445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428836158}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -31.7, y: -0.24999999, z: -1.0540004}
+  m_LocalPosition: {x: -31.7, y: -0.24999999, z: 1.63}
   m_LocalScale: {x: 0.75, y: 0.1, z: 0.75}
   m_Children: []
   m_Father: {fileID: 45136155}
@@ -29757,7 +29757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533594397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.74, y: -0.24999999, z: -1.0540004}
+  m_LocalPosition: {x: -32.74, y: -0.24999999, z: 1.67}
   m_LocalScale: {x: 0.75, y: 0.1, z: 0.75}
   m_Children: []
   m_Father: {fileID: 45136155}
@@ -35035,14 +35035,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786056809}
-  m_LocalRotation: {x: -0.00036068636, y: 0.8323821, z: -0.5542019, w: -0.0005010069}
+  m_LocalRotation: {x: 0.0003703378, y: -0.81915194, z: 0.5735763, w: 0.0004924967}
   m_LocalPosition: {x: 0.4723828, y: 27.765963, z: 10.379763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 773798613}
   m_Father: {fileID: 1448853859}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 39.039, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 70, y: -179.936, z: -0.007}
 --- !u!114 &1786056811
 MonoBehaviour:
   m_ObjectHideFlags: 0
