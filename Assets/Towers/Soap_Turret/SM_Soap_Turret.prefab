@@ -2265,7 +2265,7 @@ PrefabInstance:
     - target: {fileID: 3156319231288661200, guid: 0cb187bac3bd38944bdbe7174e0ad8ee,
         type: 3}
       propertyPath: m_Name
-      value: EnemyHitEffectSoap
+      value: EnemyHitEffect
       objectReference: {fileID: 0}
     - target: {fileID: 2309950881864303678, guid: 0cb187bac3bd38944bdbe7174e0ad8ee,
         type: 3}
