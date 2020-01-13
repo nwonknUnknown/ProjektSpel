@@ -1090,7 +1090,7 @@ MonoBehaviour:
   startAmmo: 10
   currentAmmo: 0
   bulletCost: 0
-  turretCost: 0
+  turretCost: 20
   linerenderer: {fileID: 8873026206430886463}
   damageOT: 0.1
   slowDown: 2
