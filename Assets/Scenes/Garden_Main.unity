@@ -5403,7 +5403,6 @@ GameObject:
   - component: {fileID: 199215560}
   - component: {fileID: 199215563}
   - component: {fileID: 199215562}
-  - component: {fileID: 199215561}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -5430,22 +5429,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000022888184, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &199215561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199215559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f1c50d9c807f745a25e166b2285584, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turretWithStats: {fileID: 1510856875027122, guid: 743ba299abd487549bdf9326d8aa7a56,
-    type: 3}
-  turretName: Light Tower
-  range: 1
 --- !u!114 &199215562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5479,7 +5462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Light Tower\n\n1x Damage\n1x Radius\n1 shot per \nx seconds"
+  m_Text: "Piercing Tower\n\n3x Damage\n2x Radius\n1 shot per \n2x seconds"
 --- !u!222 &199215563
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21723,7 +21706,6 @@ GameObject:
   - component: {fileID: 1183503697}
   - component: {fileID: 1183503699}
   - component: {fileID: 1183503698}
-  - component: {fileID: 1183503700}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -21783,7 +21765,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Heavy Tower\n\n2x Damage\n1.5x Radius\n1 shot per \n2x seconds"
+  m_Text: "Super bear\n\na mix of \npierce, \naoe & \nslow towers"
 --- !u!222 &1183503699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21792,22 +21774,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183503696}
   m_CullTransparentMesh: 0
---- !u!114 &1183503700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183503696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f1c50d9c807f745a25e166b2285584, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turretWithStats: {fileID: 1203247149154946, guid: bb92312a8903c0a4f933a49e53d2a617,
-    type: 3}
-  turretName: Heavy Tower
-  range: 2
 --- !u!1001 &1196752230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32474,7 +32440,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Heavy Tower\n\n2x Damage\n1.5x Radius\n1 shot per \n2x seconds"
+  m_Text: "AoE Tower\n\n2x Damage\n1.5x Radius\n2x Explosion Radius\n1 shot per \n3x
+    seconds"
 --- !u!222 &1874474037
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34761,7 +34728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Light Tower\n\n1x Damage\n1x Radius\n1 shot per \nx seconds"
+  m_Text: "Soap Turret\n\n1.5x Radius\n0.1 slow damage \nper second"
 --- !u!222 &1975430839
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37375,6 +37342,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -185.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 899.2
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.41
@@ -37430,14 +37405,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.03621
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -185.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 899.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}

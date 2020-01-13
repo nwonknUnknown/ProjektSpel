@@ -2847,7 +2847,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Heavy Tower\n\n2x Damage\n1.5x Radius\n1 shot per \n2x seconds"
+  m_Text: "Super bear\n\na mix of \npierce, \naoe & \nslow towers"
 --- !u!222 &137763320
 CanvasRenderer:
   m_ObjectHideFlags: 0
