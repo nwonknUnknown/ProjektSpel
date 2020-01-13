@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 072012855808e7c43a92a985c49a494f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Handle_Right_Leg
+    100002: Head_J1
+    100004: Hip_J
+    100006: ikHandle_Left_Arm
+    100008: ikHandle_Leftleg
+    100010: ikHandle_Right_Arm
+    100012: L_Elbow_J1
+    100014: L_foot_J1
+    100016: L_FootTop_J1
+    100018: L_Hand_J1
+    100020: L_knee_J2
+    100022: L_LegTop_J
+    100024: L_Shoulder_J
+    100026: L_Toe_J1
+    100028: Neck1_1
+    100030: R_Elbow_J1
+    100032: R_foot_J1
+    100034: R_FootTop_J1
+    100036: R_Hand_J1
+    100038: R_knee_J2
+    100040: R_LegTop_J
+    100042: R_Shoulder_J
+    100044: R_Toe_J1
+    100046: RAt
+    100048: //RootNode
+    100050: Spine01_J1_1
+    100052: Spine02_J1_1
+    100054: Spine03_J1_1
+    100056: Spine04_J1_1
+    100058: Tail
+    100060: Tail2_1
+    100062: Tail3_1
+    100064: tail3_1
+    100066: tail4_1
+    400000: Handle_Right_Leg
+    400002: Head_J1
+    400004: Hip_J
+    400006: ikHandle_Left_Arm
+    400008: ikHandle_Leftleg
+    400010: ikHandle_Right_Arm
+    400012: L_Elbow_J1
+    400014: L_foot_J1
+    400016: L_FootTop_J1
+    400018: L_Hand_J1
+    400020: L_knee_J2
+    400022: L_LegTop_J
+    400024: L_Shoulder_J
+    400026: L_Toe_J1
+    400028: Neck1_1
+    400030: R_Elbow_J1
+    400032: R_foot_J1
+    400034: R_FootTop_J1
+    400036: R_Hand_J1
+    400038: R_knee_J2
+    400040: R_LegTop_J
+    400042: R_Shoulder_J
+    400044: R_Toe_J1
+    400046: RAt
+    400048: //RootNode
+    400050: Spine01_J1_1
+    400052: Spine02_J1_1
+    400054: Spine03_J1_1
+    400056: Spine04_J1_1
+    400058: Tail
+    400060: Tail2_1
+    400062: Tail3_1
+    400064: tail3_1
+    400066: tail4_1
+    2100000: lambert1
+    4300000: RAt
+    9500000: //RootNode
+    13700000: RAt
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
