@@ -326,7 +326,6 @@ GameObject:
   - component: {fileID: 9062577}
   - component: {fileID: 9062576}
   - component: {fileID: 9062578}
-  - component: {fileID: 9062579}
   m_Layer: 0
   m_Name: EnemyCreator
   m_TagString: Untagged
@@ -404,29 +403,6 @@ MonoBehaviour:
   numberOfEnemiesWave3: 0f0000001900000005000000
   numberOfEnemiesWave4: 190000003200000007000000
   numberOfEnemiesWave5: 4b000000320000000a000000
---- !u!114 &9062579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9062575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc10cb55d5d42224a9820058fa7d7695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _lightning: {fileID: 496770646}
-  _camera: {fileID: 1084018473}
-  _youLostUI: {fileID: 1527681028}
-  _nomalUI: {fileID: 147344404}
-  _loosingEffectLightning: {fileID: 1136875685}
-  _waveCompleteUI: {fileID: 149153678}
-  _gameCompletedUI: {fileID: 487032811}
-  defaultMusic: {fileID: 219537515}
-  winningMusic: {fileID: 1077108784}
-  lostStinger: {fileID: 1108131580}
-  winStinger: {fileID: 779746749}
 --- !u!1 &9798082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5175,7 +5151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14150941, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

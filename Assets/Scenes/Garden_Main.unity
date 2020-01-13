@@ -383,7 +383,6 @@ GameObject:
   - component: {fileID: 9062577}
   - component: {fileID: 9062576}
   - component: {fileID: 9062578}
-  - component: {fileID: 9062579}
   m_Layer: 0
   m_Name: EnemyCreator
   m_TagString: Untagged
@@ -459,29 +458,6 @@ MonoBehaviour:
   numberOfEnemiesWave3: 0f00000019000000
   numberOfEnemiesWave4: 1900000032000000
   numberOfEnemiesWave5: 4b00000032000000
---- !u!114 &9062579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9062575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc10cb55d5d42224a9820058fa7d7695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _lightning: {fileID: 496770646}
-  _camera: {fileID: 1084018473}
-  _youLostUI: {fileID: 1527681028}
-  _nomalUI: {fileID: 147344404}
-  _loosingEffectLightning: {fileID: 1136875685}
-  _waveCompleteUI: {fileID: 149153678}
-  _gameCompletedUI: {fileID: 487032811}
-  defaultMusic: {fileID: 219537515}
-  winningMusic: {fileID: 1077108784}
-  lostStinger: {fileID: 1108131580}
-  winStinger: {fileID: 779746749}
 --- !u!1 &9798082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,7 +5018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -23665,7 +23641,7 @@ Transform:
   - {fileID: 140818637}
   - {fileID: 1416560654}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1321599575
 GameObject:
@@ -25818,7 +25794,7 @@ Transform:
   m_Children:
   - {fileID: 1084018476}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1472413348
 MeshFilter:
@@ -32095,7 +32071,7 @@ Transform:
   - {fileID: 160917253}
   - {fileID: 1321599577}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1862459233
 PrefabInstance:
@@ -34823,7 +34799,7 @@ Transform:
   - {fileID: 763652318}
   - {fileID: 1779762011}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1987496296
 PrefabInstance:
@@ -37116,14 +37092,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -185.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 899.2
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.41
@@ -37179,6 +37147,14 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.03621
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -185.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 899.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
