@@ -2812,7 +2812,7 @@ MonoBehaviour:
   turnspeed: 10
   startAmmo: 15
   currentAmmo: 15
-  bulletCost: 2
+  bulletCost: 1
   turretCost: 50
 --- !u!114 &114872404252876810
 MonoBehaviour:

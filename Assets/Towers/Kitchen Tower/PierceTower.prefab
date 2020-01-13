@@ -1198,7 +1198,7 @@ MonoBehaviour:
   bulletPrefab:
   - {fileID: 5830380761251084938, guid: 8dbd806ea3ffa46bdac525f3c89e79f0, type: 3}
   timeBetweenShots: 2
-  turretDamage: 4
+  turretDamage: 3
   turnspeed: 10
   startAmmo: 8
   currentAmmo: 0
