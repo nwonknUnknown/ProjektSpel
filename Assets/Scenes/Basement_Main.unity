@@ -354,6 +354,7 @@ MonoBehaviour:
   enemy:
   - {fileID: 1114211881718864, guid: 521bfe7b38b9e2743b42720290e037ae, type: 3}
   - {fileID: 1276050932814092, guid: 68478aba1b015734a8fad24a8d081ff0, type: 3}
+  - {fileID: 6499172110457396895, guid: 618fddc8ca8146741b40964bbef2c2ea, type: 3}
   spawnPoints:
   - {fileID: 1010230896}
   - {fileID: 385450957}
@@ -397,11 +398,11 @@ MonoBehaviour:
   timeToFirstSpawn: 5
   timeBetweenSpawns: 1
   goldRewardAfterWave: 50
-  numberOfEnemiesWave1: 0300000003000000
-  numberOfEnemiesWave2: 050000000f000000
-  numberOfEnemiesWave3: 0f00000019000000
-  numberOfEnemiesWave4: 1900000032000000
-  numberOfEnemiesWave5: 4b00000032000000
+  numberOfEnemiesWave1: 030000000300000001000000
+  numberOfEnemiesWave2: 050000000f00000003000000
+  numberOfEnemiesWave3: 0f0000001900000005000000
+  numberOfEnemiesWave4: 190000003200000007000000
+  numberOfEnemiesWave5: 4b000000320000000a000000
 --- !u!1 &9798082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3973,7 +3974,6 @@ MonoBehaviour:
   - {fileID: 415042159}
   - {fileID: 1053299940}
   - {fileID: 339477073}
-  slowTurretPlots: []
   strongTurretPlots:
   - {fileID: 1062020044}
   - {fileID: 1344841029}
@@ -3997,7 +3997,6 @@ MonoBehaviour:
   - {fileID: 926609381}
   - {fileID: 589335076}
   - {fileID: 1233966060}
-  aoeTurretPlots: []
 --- !u!114 &161065235
 MonoBehaviour:
   m_ObjectHideFlags: 0
