@@ -1196,7 +1196,7 @@ MonoBehaviour:
   bulletSpawnposition: {fileID: 2070326400069863962}
   bulletSpawnrotation: {fileID: 6921289516634201406}
   bulletPrefab:
-  - {fileID: 5830380761251084938, guid: 8dbd806ea3ffa46bdac525f3c89e79f0, type: 3}
+  - {fileID: 7167222901734302132, guid: d8bcc6aa3dc504a6fa13a7ddce6c462c, type: 3}
   timeBetweenShots: 2
   turretDamage: 3
   turnspeed: 10
@@ -2112,7 +2112,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8220096162239630416}
-  m_LocalRotation: {x: 0, y: 0.97629607, z: 0.21643952, w: 0}
+  m_LocalRotation: {x: 0, y: 0.97629607, z: -0.2164396, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.00593, y: 0.0048, z: 1.9976103}
   m_Children:
@@ -2120,7 +2120,7 @@ RectTransform:
   - {fileID: 5048583996730862153}
   m_Father: {fileID: 2300875211368432738}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -25, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 25, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.03, y: 2.05}
@@ -2214,8 +2214,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 200, y: 250, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0.1}
+  m_Size: {x: 350.63638, y: 250, z: 0.10000001}
+  m_Center: {x: 23.992308, y: 0.0000021868152, z: 0.099999964}
 --- !u!114 &3914353133357485752
 MonoBehaviour:
   m_ObjectHideFlags: 0
