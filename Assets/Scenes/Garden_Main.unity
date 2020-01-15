@@ -5480,7 +5480,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Piercing knife rack\n\n3x Damage\n2x Radius\n1 shot per \n2x seconds\ncost:
+  m_Text: "Piercing knife rack\n\n3x Damage\n3x Radius\n1 shot per \n2x seconds\ncost:
     100"
 --- !u!222 &199215563
 CanvasRenderer:
@@ -32689,7 +32689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "AoE candle\n\n2x Damage\n1.5x Radius\n2x Explosion Radius\n1 shot per \n3x
+  m_Text: "AoE candle\n\n2x Damage\n1.5x Radius\n3x Explosion Radius\n1 shot per \n3x
     seconds\ncost: 80"
 --- !u!222 &1874474037
 CanvasRenderer:
@@ -37616,14 +37616,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -185.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 899.2
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.41
@@ -37679,6 +37671,14 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.03621
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -185.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 899.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 271dfa6f8b6c6174bbdf5590f0f6c554, type: 3}

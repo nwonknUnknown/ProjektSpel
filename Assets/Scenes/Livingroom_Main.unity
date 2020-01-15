@@ -19807,8 +19807,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "AoE candle\r\n\r\n2x Damage\r\n1.5x Radius\r\n2x Explosion Radius\r\n1
-    shot per \r\n3x seconds\r\ncost: 80\r\n"
+  m_Text: "AoE candle\r\n\r\n2x Damage\r\n3x Radius\r\n2x Explosion Radius\r\n1 shot
+    per \r\n3x seconds\r\ncost: 80\r\n"
 --- !u!222 &1012117686
 CanvasRenderer:
   m_ObjectHideFlags: 0

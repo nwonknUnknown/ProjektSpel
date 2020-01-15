@@ -7805,7 +7805,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Piercing knife rack\r\n\r\n3x Damage\r\n2x Radius\r\n1 shot per \r\n2x
+  m_Text: "Piercing knife rack\r\n\r\n3x Damage\r\n3x Radius\r\n1 shot per \r\n2x
     seconds\r\ncost: 100\r\n"
 --- !u!222 &345653327
 CanvasRenderer:
@@ -19052,10 +19052,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Fan
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 4215d624c4313d848b2830f657e49770, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.65
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4215d624c4313d848b2830f657e49770, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.748571
@@ -19103,6 +19099,10 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 4215d624c4313d848b2830f657e49770, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1206697
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4215d624c4313d848b2830f657e49770, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.65
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 4215d624c4313d848b2830f657e49770, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -35897,10 +35897,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Wall_Left
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 610c6440295a84f4683005925ddda3c0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -12
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 610c6440295a84f4683005925ddda3c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.976332
@@ -35948,6 +35944,10 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 610c6440295a84f4683005925ddda3c0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23534064
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 610c6440295a84f4683005925ddda3c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 610c6440295a84f4683005925ddda3c0, type: 3}
