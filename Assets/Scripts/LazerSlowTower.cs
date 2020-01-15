@@ -11,17 +11,21 @@ public class LazerSlowTower : TurretActions
 
     internal override void Update()
     {
-        if (!LockOnTarget() && !hasTarget)
-        {
-            linerenderer.enabled = false;
-            enemyHitEffect.Stop();
-        }
+        if (!HpManager.instance.CheckIfLost())
+            if (!LockOnTarget() && !hasTarget)
+            {
+                    if (linerenderer.enabled)
+                    {
 
+                        linerenderer.enabled = false;
+                        enemyHitEffect.Stop();
+                    }
+                    return;
+            }
         Shoot();
     }
     internal override void Shoot()
     {
-
         if (!linerenderer.enabled && hasTarget)
         {
             linerenderer.enabled = true;
